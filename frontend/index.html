@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Phishing Detection &amp; Awareness Dashboard</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <svg class="brand-icon" viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path d="M12 2 4 5v6c0 5 3.4 9.4 8 11 4.6-1.6 8-6 8-11V5l-8-3Zm-1 14-3.5-3.5 1.4-1.4L11 13.2l4.6-4.6L17 10l-6 6Z"/></svg>
+      <div><strong>Phishing Detection &amp; Awareness</strong><span class="brand-sub">Defensive email-security dashboard · synthetic data only</span></div>
+    </div>
+    <nav class="tabs" aria-label="Sections">
+      <button class="tab" data-view="dashboard">Dashboard</button>
+      <button class="tab" data-view="analyze">Analyze Email</button>
+      <button class="tab" data-view="history">History</button>
+      <button class="tab" data-view="learn">Awareness</button>
+    </nav>
+    <div class="user-area" id="user-area" hidden>
+      <span id="user-label"></span>
+      <button class="btn btn-ghost" id="logout-btn" hidden>Sign out</button>
+    </div>
+  </header>
+
+  <div id="notice" class="notice" role="alert" hidden></div>
+
+  <main>
+    <!-- ================= DASHBOARD ================= -->
+    <section id="view-dashboard" class="view" hidden>
+      <div class="view-head">
+        <h1>Security Overview</h1>
+        <button class="btn btn-ghost" id="refresh-btn">Refresh</button>
+      </div>
+      <p id="empty-note" class="empty-note" hidden>No analyses stored yet. Analyze an email on the <a href="#analyze">Analyze</a> tab, or run <code>python -m backend.seed_demo</code> to add synthetic history.</p>
+      <div class="cards" id="cards"></div>
+      <div class="grid charts">
+        <div class="panel"><h2>Classification Distribution</h2><div class="chart-box"><canvas id="ch-class" role="img" aria-label="Classification distribution chart"></canvas></div></div>
+        <div class="panel"><h2>Flagged vs Not Flagged</h2><p class="hint">Flagged = SUSPICIOUS or HIGH (score ≥ 41). This is a risk flag, not a confirmed verdict.</p><div class="chart-box"><canvas id="ch-flag" role="img" aria-label="Flagged versus not flagged chart"></canvas></div></div>
+        <div class="panel"><h2>Top Detected Indicators</h2><div class="chart-box"><canvas id="ch-ind" role="img" aria-label="Top detected indicators chart"></canvas></div></div>
+        <div class="panel"><h2>Risk Score Distribution</h2><div class="chart-box"><canvas id="ch-dist" role="img" aria-label="Risk score distribution chart"></canvas></div></div>
+        <div class="panel wide"><h2>Detection Trend (last 14 days)</h2><div class="chart-box"><canvas id="ch-trend" role="img" aria-label="Detection trend chart"></canvas></div></div>
+        <div class="panel wide"><h2>Most Common Suspicious Keywords</h2><div class="chart-box"><canvas id="ch-kw" role="img" aria-label="Most common suspicious keywords chart"></canvas></div></div>
+      </div>
+    </section>
+
+    <!-- ================= ANALYZE ================= -->
+    <section id="view-analyze" class="view" hidden>
+      <div class="view-head"><h1>Analyze an Email</h1></div>
+      <div class="grid analyze-grid">
+        <div class="panel">
+          <h2>Email details</h2>
+          <p class="hint">Paste only synthetic or authorized content. Links are never opened and attachments are never run; only their text/names are inspected.</p>
+          <div class="samples">
+            <span>Load a safe sample:</span>
+            <button class="btn btn-ghost small" data-sample="phish">Synthetic phishing</button>
+            <button class="btn btn-ghost small" data-sample="legit">Legitimate</button>
+            <button class="btn btn-ghost small" data-sample="subtle">Subtle phishing</button>
+          </div>
+          <label for="f-sender">Sender</label>
+          <input id="f-sender" type="text" maxlength="320" placeholder='security-alert@account-check.invalid.test or "Name &lt;a@b.example&gt;"' autocomplete="off">
+          <label for="f-subject">Subject</label>
+          <input id="f-subject" type="text" maxlength="500" placeholder="Email subject" autocomplete="off">
+          <label for="f-body">Body</label>
+          <textarea id="f-body" rows="9" maxlength="200000" placeholder="Paste the email body here"></textarea>
+          <label for="f-att">Attachment filename <span class="opt">(optional, name only)</span></label>
+          <input id="f-att" type="text" maxlength="255" placeholder="e.g. invoice.pdf.exe" autocomplete="off">
+          <label class="check"><input id="f-ml" type="checkbox" checked> Use ML model when available (hybrid score)</label>
+          <div class="actions">
+            <button class="btn btn-primary" id="analyze-btn">ANALYZE EMAIL</button>
+            <button class="btn btn-ghost" id="clear-btn">Clear</button>
+          </div>
+          <hr>
+          <h3>Or upload a safe .eml / .txt file</h3>
+          <div class="row">
+            <input id="f-file" type="file" accept=".eml,.txt">
+            <button class="btn btn-ghost" id="upload-btn">Analyze file</button>
+          </div>
+          <hr>
+          <h3>Check a single URL <span class="opt">(static analysis, never visited)</span></h3>
+          <div class="row">
+            <input id="f-url" type="text" maxlength="2048" placeholder="http://198.51.100.10/verify-account">
+            <button class="btn btn-ghost" id="url-btn">Check URL</button>
+          </div>
+          <div id="url-result"></div>
+        </div>
+        <div id="result-panel" class="panel result">
+          <div class="placeholder"><h2>Result</h2><p>Run an analysis to see the risk score, the reasons behind it, and recommended actions.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= HISTORY ================= -->
+    <section id="view-history" class="view" hidden>
+      <div class="view-head"><h1>Analysis History</h1></div>
+      <p class="hint">Only safe metadata is stored: sender domain, subject, scores, indicators and defanged URLs. Email bodies are never saved.</p>
+      <div class="panel">
+        <div class="filters">
+          <input id="h-q" type="search" maxlength="100" placeholder="Search subject or sender domain" aria-label="Search history">
+          <select id="h-class" aria-label="Filter by classification">
+            <option value="">All classifications</option><option value="HIGH">High risk / likely phishing</option>
+            <option value="SUSPICIOUS">Suspicious</option><option value="MODERATE">Moderate risk</option><option value="LOW">Low risk</option>
+          </select>
+          <select id="h-sort" aria-label="Sort order">
+            <option value="newest">Newest first</option><option value="oldest">Oldest first</option>
+            <option value="risk_desc">Highest risk first</option><option value="risk_asc">Lowest risk first</option>
+          </select>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>ID</th><th>Analyzed</th><th>Sender domain</th><th>Subject</th><th>Score</th><th>Classification</th><th></th></tr></thead>
+            <tbody id="h-body"></tbody>
+          </table>
+        </div>
+        <div class="pager"><button class="btn btn-ghost small" id="h-prev">Previous</button><span id="h-page"></span><button class="btn btn-ghost small" id="h-next">Next</button></div>
+      </div>
+    </section>
+
+    <!-- ================= AWARENESS ================= -->
+    <section id="view-learn" class="view" hidden>
+      <div class="view-head"><h1>How to Spot a Phishing Email</h1></div>
+      <p class="lead">Phishing tries to make you act before you think. No single sign proves an email is fake, so look for several together and always verify through a channel you already trust.</p>
+      <div class="grid tips" id="tips"></div>
+      <div class="grid two">
+        <div class="panel">
+          <h2>Before You Click checklist</h2>
+          <ul class="checklist" id="checklist"></ul>
+          <p id="check-status" class="check-status"></p>
+        </div>
+        <div class="panel">
+          <h2>If you already clicked or replied</h2>
+          <ol class="steps">
+            <li>Do not enter anything else. Close the page.</li>
+            <li>If you typed a password, change it right away on the real site and anywhere you reused it.</li>
+            <li>Turn on multi-factor authentication for the affected accounts.</li>
+            <li>Tell your IT/security team and forward the email to them as an attachment.</li>
+            <li>If money or card details were involved, contact your bank using a number you already know.</li>
+          </ol>
+          <h2 class="gap">Why a score, not a verdict?</h2>
+          <p>The dashboard reports a <strong>risk score with reasons</strong>. A real HR email can say “urgent”, and a careful attacker can avoid every red flag. Use the score to guide your judgment, not to replace it.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="detail-dialog" aria-labelledby="detail-title">
+    <div class="dialog-head"><h2 id="detail-title">Analysis detail</h2><button class="btn btn-ghost small" id="detail-close">Close</button></div>
+    <div id="detail-body"></div>
+  </dialog>
+
+  <dialog id="login-dialog" aria-labelledby="login-title">
+    <h2 id="login-title">Sign in</h2>
+    <p class="hint">Authentication is enabled on this server. The first account registered becomes the admin.</p>
+    <label for="l-user">Username</label><input id="l-user" type="text" maxlength="32" autocomplete="username">
+    <label for="l-pass">Password (min 8 characters)</label><input id="l-pass" type="password" maxlength="128" autocomplete="current-password">
+    <p id="login-error" class="form-error" hidden></p>
+    <div class="actions"><button class="btn btn-primary" id="login-btn">Sign in</button><button class="btn btn-ghost" id="register-btn">Register</button></div>
+  </dialog>
+
+  <footer class="footer">Educational project · uses synthetic or authorized data only · scores are estimates that support, not replace, human judgment.</footer>
+  <script src="/static/vendor/chart.umd.js"></script>
+  <script src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+{
+  "best": "Logistic Regression",
+  "validation": {
+    "Logistic Regression": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tn": 44,
+      "fp": 0,
+      "fn": 0,
+      "tp": 24
+    },
+    "Naive Bayes": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tn": 44,
+      "fp": 0,
+      "fn": 0,
+      "tp": 24
+    },
+    "Random Forest": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tn": 44,
+      "fp": 0,
+      "fn": 0,
+      "tp": 24
+    }
+  },
+  "test": {
+    "Logistic Regression": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tn": 45,
+      "fp": 0,
+      "fn": 0,
+      "tp": 24
+    },
+    "Naive Bayes": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tn": 45,
+      "fp": 0,
+      "fn": 0,
+      "tp": 24
+    },
+    "Random Forest": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tn": 45,
+      "fp": 0,
+      "fn": 0,
+      "tp": 24
+    },
+    "Rules only (score>=21)": {
+      "accuracy": 0.855072463768116,
+      "precision": 1.0,
+      "recall": 0.5833333333333334,
+      "f1": 0.7368421052631579,
+      "tn": 45,
+      "fp": 0,
+      "fn": 10,
+      "tp": 14
+    },
+    "Rules only (score>=41)": {
+      "accuracy": 0.7246376811594203,
+      "precision": 1.0,
+      "recall": 0.20833333333333334,
+      "f1": 0.3448275862068966,
+      "tn": 45,
+      "fp": 0,
+      "fn": 19,
+      "tp": 5
+    },
+    "Hybrid (score>=41)": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tn": 45,
+      "fp": 0,
+      "fn": 0,
+      "tp": 24
+    }
+  },
+  "stress_ml": {
+    "fake_account_verification": 1.0,
+    "fake_delivery": 1.0,
+    "fake_executive_request": 1.0,
+    "fake_hr_request": 1.0,
+    "fake_invoice": 1.0,
+    "fake_password_expiration": 1.0,
+    "fake_prize": 1.0,
+    "subtle_attachment": 1.0,
+    "subtle_document_share": 0.0
+  },
+  "stress_rules": {
+    "fake_account_verification": 1.0,
+    "fake_delivery": 1.0,
+    "fake_executive_request": 0.0,
+    "fake_hr_request": 1.0,
+    "fake_invoice": 1.0,
+    "fake_password_expiration": 1.0,
+    "fake_prize": 1.0,
+    "subtle_attachment": 0.0,
+    "subtle_document_share": 0.0
+  }
+}

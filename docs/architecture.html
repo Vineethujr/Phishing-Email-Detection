@@ -1,0 +1,36 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Architecture</title>
+<style>
+body{font-family:system-ui,Segoe UI,Arial,sans-serif;background:#f4f6fa;margin:0;padding:28px;color:#1c2333;width:1100px}
+h1{font-size:22px;margin:0 0 4px}p.sub{margin:0 0 18px;color:#5b667a;font-size:14px}
+.flow{display:flex;flex-direction:column;align-items:center;gap:0}
+.box{background:#fff;border:1px solid #d5dbe8;border-radius:10px;padding:12px 18px;text-align:center;box-shadow:0 1px 3px rgba(20,33,61,.08);min-width:420px}
+.box b{display:block;font-size:15px}.box span{font-size:12.5px;color:#5b667a}
+.arrow{font-size:16px;color:#2b59c3;line-height:26px}
+.navy{background:#14213d;color:#fff;border-color:#14213d}.navy span{color:#b8c3dc}
+.row{display:flex;gap:12px;align-items:stretch}
+.an{min-width:0;width:172px;padding:10px 8px}.opt{border-style:dashed;background:#f0ecff;border-color:#8b7fe0}
+.green{background:#e4f5ec;border-color:#9ed4b6}.orange{background:#fdf3d8;border-color:#e2c46e}
+.side{display:flex;gap:26px;align-items:center}
+.db{background:#e8edf7;border-color:#9db0d8}
+.note{font-size:12px;color:#5b667a;margin-top:14px;text-align:center}
+</style></head><body>
+<h1>Phishing Email Detection &amp; Awareness Dashboard: Architecture</h1>
+<p class="sub">Static, defensive analysis. URLs are never visited, attachments are never opened, email bodies are never stored.</p>
+<div class="flow">
+<div class="box navy"><b>User (student / analyst)</b><span>pastes email, uploads .eml/.txt, browses analytics</span></div><div class="arrow">↓</div>
+<div class="box"><b>Web Dashboard</b><span>HTML + vanilla JS + Chart.js (vendored) · strict CSP · data rendered as text only</span></div><div class="arrow">↓ JSON over HTTP</div>
+<div class="box"><b>Backend API (FastAPI)</b><span>validation · size limits · rate limiting · optional auth (roles) · security logging</span></div><div class="arrow">↓</div>
+<div class="box"><b>Preprocessing</b><span>light cleaning (keeps caps, punctuation, URLs) · URL/domain/attachment extraction</span></div><div class="arrow">↓</div>
+<div class="row">
+<div class="box an"><b>Sender Analyzer</b><span>format, domain, lookalike, display-name mismatch</span></div>
+<div class="box an"><b>Content Analyzer</b><span>urgency, fear, financial, credential, reward, personal info</span></div>
+<div class="box an"><b>URL Analyzer</b><span>raw IP, scheme, subdomains, shorteners, keywords (string-only)</span></div>
+<div class="box an"><b>Attachment Analyzer</b><span>risky types, double extensions (filename-only)</span></div>
+<div class="box an opt"><b>ML Model (optional)</b><span>TF-IDF + indicators · Logistic Regression</span></div>
+</div><div class="arrow">↓</div>
+<div class="box orange"><b>Risk Engine + Hybrid Blend</b><span>rule score 0-100 (weights = assumptions) · 0.4 × rules + 0.6 × ML probability</span></div><div class="arrow">↓</div>
+<div class="box green"><b>Classification · Explanation · Recommendations</b><span>LOW / MODERATE / SUSPICIOUS / HIGH RISK, with “Why?” list and actions</span></div><div class="arrow">↓</div>
+<div class="side"><div class="box db"><b>SQLite (metadata only)</b><span>analyses · indicators · url_analyses (defanged) · users · sessions</span></div>
+<div style="font-size:22px;color:#2b59c3">⇄</div><div class="box"><b>Dashboard analytics</b><span>KPI cards · 6 charts · history · awareness</span></div></div>
+</div><p class="note">Data flow: request → validate → preprocess → analyzers (+ optional ML) → score → classify → explain → store metadata → return JSON → render.</p>
+</body></html>

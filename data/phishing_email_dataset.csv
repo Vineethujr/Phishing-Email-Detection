@@ -1,0 +1,2201 @@
+email_id,sender,sender_domain,subject,body,urls,attachment_name,label,category
+EML-00001,registrar@example.org,example.org,Semester registration opens May 8,"Hello students,
+
+Registration for the next semester opens on May 8. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00002,billing@invoice-center.example.net,invoice-center.example.net,Invoice #98696 overdue - payment failed,"Dear Sir/Madam,
+
+Your invoice is past due and payment failed. Open the attached invoice and settle the outstanding balance today.",,Invoice_98696.pdf.exe,PHISHING,fake_invoice
+EML-00003,registrar@example.org,example.org,Semester registration opens January 3,"Hello students,
+
+Registration for the next semester opens on January 7. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00004,support@examplebank-secure.example.net,examplebank-secure.example.net,URGENT: Verify Your Account Immediately,"Dear Customer,
+
+Unusual activity was detected. Your account will be suspended within 24 hours unless you verify your account immediately: http://examplebank.verify-login.example.net/signin
+Enter your password to restore access.",http://examplebank.verify-login.example.net/signin,,PHISHING,fake_account_verification
+EML-00005,delivery@parcel-track.example.net,parcel-track.example.net,Delivery failed - reschedule now,"Hello Customer,
+
+We could not deliver your parcel. Confirm your address and pay the small fee within 24 hours: http://short.example/aB3xY2",http://short.example/aB3xY2,,PHISHING,fake_delivery
+EML-00006,news@example.net,example.net,This month in tech: cloud basics,"Hello readers,
+
+This month we cover safe browsing and safe browsing. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00007,news@example.net,example.net,This month in tech: password managers,"Hello readers,
+
+This month we cover password managers and data privacy. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00008,hr-payroll@example-hr.example.net,example-hr.example.net,Action required: confirm your payroll details,"Dear Employee,
+
+To avoid delays in your salary, please confirm your payroll details and send your bank account number by reply. Immediate action is required.",,,PHISHING,fake_hr_request
+EML-00009,registrar@example.org,example.org,Semester registration opens August 18,"Hello students,
+
+Registration for the next semester opens on August 4. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00010,no-reply@example.com,example.com,Your password was changed,"Hi Priya,
+
+The password for your account was changed on September 10. If this was you, no action is needed. If it was not you, contact the helpdesk through https://example.com/help.",https://example.com/help,,LEGITIMATE,password_change_confirmation
+EML-00011,news@example.net,example.net,This month in tech: open-source tools,"Hello readers,
+
+This month we cover safe browsing and AI in education. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00012,it-helpdesk@example-support.invalid.test,example-support.invalid.test,Your password expires today,"Dear User,
+
+Your password expires today. Update your password immediately to keep access: http://203.0.113.22/reset",http://203.0.113.22/reset,,PHISHING,fake_password_expiration
+EML-00013,no-reply@example.com,example.com,Your password was changed,"Hi Liam,
+
+The password for your account was changed on August 21. If this was you, no action is needed. If it was not you, contact the helpdesk through https://example.com/help.",https://example.com/help,,LEGITIMATE,password_change_confirmation
+EML-00014,zoya@example.com,example.com,Sprint 12 status update,"Hi team,
+
+We finished 6 tasks this sprint and 3 carry over. Board: https://projects.example.com/board.
+
+Thanks!",https://projects.example.com/board,burndown.xlsx,LEGITIMATE,project_update
+EML-00015,hr@example.com,example.com,Updated leave policy for 2025,"Hi all,
+
+The leave policy has been updated. You can read the details at https://hr.example.com/policies. No action is required.
+
+HR Team",https://hr.example.com/policies,,LEGITIMATE,hr_update
+EML-00016,calendar@example.net,example.net,Reminder: project sync on Thursday at 4 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-11
+
+Agenda attached.",https://meet.example.net/room-11,agenda.pdf,LEGITIMATE,meeting_reminder
+EML-00017,calendar@example.net,example.net,Reminder: project sync on Wednesday at 1 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-44
+
+Agenda attached.",https://meet.example.net/room-44,,LEGITIMATE,meeting_reminder
+EML-00018,news@example.net,example.net,This month in tech: data privacy,"Hello readers,
+
+This month we cover cloud basics and password managers. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00019,hr-payroll@example-hr.example.net,example-hr.example.net,Action required: confirm your payroll details,"Dear Employee,
+
+To avoid delays in your salary, please confirm your payroll details and send your bank account number by reply. Immediate action is required.",,,PHISHING,fake_hr_request
+EML-00020,docs-share@example-docs.example.net,example-docs.example.net,Document shared with you,"Hi Kabir,
+
+A colleague shared the meeting notes with you. You can view them here: https://docs-share.example.net/view/61856",https://docs-share.example.net/view/61856,,PHISHING,subtle_document_share
+EML-00021,orders@exampleshop.example.com,exampleshop.example.com,Your order #28301 has shipped,"Hi Maya,
+
+Thanks for your order. It shipped today and should arrive in 6 days. Track it at https://exampleshop.example.com/orders/28301.",https://exampleshop.example.com/orders/28301,receipt_28301.pdf,LEGITIMATE,shopping_confirmation
+EML-00022,no-reply@example.com,example.com,Your password was changed,"Hi Emma,
+
+The password for your account was changed on July 12. If this was you, no action is needed. If it was not you, contact the helpdesk through https://example.com/help.",https://example.com/help,,LEGITIMATE,password_change_confirmation
+EML-00023,rewards@prize-center.invalid.test,prize-center.invalid.test,Congratulations! You have won a free gift!!!,"Dear Winner,
+
+You have won! Claim your prize now: http://claim-prize.example.net/76784
+Confirm your personal details and card number to receive it.",http://claim-prize.example.net/76784,,PHISHING,fake_prize
+EML-00024,registrar@example.org,example.org,Semester registration opens February 5,"Hello students,
+
+Registration for the next semester opens on February 21. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00025,ceo.office@example-corp.invalid.test,example-corp.invalid.test,Quick task - confidential,Are you at your desk? I am in a meeting and need you to buy gift cards for a client. Do this immediately and reply with the codes. Keep it confidential.,,,PHISHING,fake_executive_request
+EML-00026,no-reply@example.com,example.com,Your password was changed,"Hi Noah,
+
+The password for your account was changed on October 15. If this was you, no action is needed. If it was not you, contact the helpdesk through https://example.com/help.",https://example.com/help,,LEGITIMATE,password_change_confirmation
+EML-00027,registrar@example.org,example.org,Semester registration opens February 22,"Hello students,
+
+Registration for the next semester opens on February 18. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00028,news@example.net,example.net,This month in tech: password managers,"Hello readers,
+
+This month we cover cloud basics and data privacy. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00029,ExampleBank Support <alerts@verify-mail.invalid.test>,verify-mail.invalid.test,URGENT: Verify Your Account Immediately,"Dear Customer,
+
+Unusual activity was detected. Your account will be suspended within 24 hours unless you verify your account immediately: http://secure-login.invalid.test/account/verify?id=33416
+Enter your password to restore access.",http://secure-login.invalid.test/account/verify?id=33416,,PHISHING,fake_account_verification
+EML-00030,orders@exampleshop.example.com,exampleshop.example.com,Your order #93748 has shipped,"Hi Ravi,
+
+Thanks for your order. It shipped today and should arrive in 6 days. Track it at https://exampleshop.example.com/orders/93748.",https://exampleshop.example.com/orders/93748,,LEGITIMATE,shopping_confirmation
+EML-00031,rewards@prize-center.invalid.test,prize-center.invalid.test,Congratulations! You have won a free gift!!!,"Dear Winner,
+
+You have won! Claim your prize now: http://claim-prize.example.net/80697
+Confirm your personal details and card number to receive it.",http://claim-prize.example.net/80697,,PHISHING,fake_prize
+EML-00032,registrar@example.org,example.org,Semester registration opens October 11,"Hello students,
+
+Registration for the next semester opens on October 16. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00033,hr-payroll@example-hr.example.net,example-hr.example.net,Action required: confirm your payroll details,"Dear Employee,
+
+To avoid delays in your salary, please confirm your payroll details and send your bank account number by reply. Immediate action is required.",,,PHISHING,fake_hr_request
+EML-00034,orders@exampleshop.example.com,exampleshop.example.com,Your order #41385 has shipped,"Hi Aarav,
+
+Thanks for your order. It shipped today and should arrive in 3 days. Track it at https://exampleshop.example.com/orders/41385.",https://exampleshop.example.com/orders/41385,,LEGITIMATE,shopping_confirmation
+EML-00035,docs-share@example-docs.example.net,example-docs.example.net,Document shared with you,"Hi Ravi,
+
+A colleague shared the meeting notes with you. You can view them here: https://docs-share.example.net/view/19071",https://docs-share.example.net/view/19071,,PHISHING,subtle_document_share
+EML-00036,kabir@example.com,example.com,Sprint 16 status update,"Hi team,
+
+We finished 11 tasks this sprint and 2 carry over. Board: https://projects.example.com/board.
+
+Thanks!",https://projects.example.com/board,sprint_report.pdf,LEGITIMATE,project_update
+EML-00037,no-reply@example.com,example.com,Your password was changed,"Hi Maya,
+
+The password for your account was changed on September 25. If this was you, no action is needed. If it was not you, contact the helpdesk through https://example.com/help.",https://example.com/help,,LEGITIMATE,password_change_confirmation
+EML-00038,calendar@example.net,example.net,Reminder: project sync on Wednesday at 4 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-46
+
+Agenda attached.",https://meet.example.net/room-46,agenda.docx,LEGITIMATE,meeting_reminder
+EML-00039,ExampleBank Alerts <alerts@examplebank.example.com>,examplebank.example.com,Your September statement is ready,"Hello Isha,
+
+Your monthly statement is available in the ExampleBank app or at https://examplebank.example.com/statements. We will never ask for your password by email.",https://examplebank.example.com/statements,,LEGITIMATE,bank_notification
+EML-00040,it-helpdesk@example-support.invalid.test,example-support.invalid.test,Your password expires today,"Dear User,
+
+Your password expires today. Update your password immediately to keep access: http://198.51.100.88/reset",http://198.51.100.88/reset,,PHISHING,fake_password_expiration
+EML-00041,calendar@example.net,example.net,Reminder: project sync on Tuesday at 1 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-38
+
+Agenda attached.",https://meet.example.net/room-38,,LEGITIMATE,meeting_reminder
+EML-00042,registrar@example.org,example.org,Semester registration opens April 3,"Hello students,
+
+Registration for the next semester opens on April 2. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00043,hr@example.com,example.com,Updated leave policy for 2026,"Hi all,
+
+The leave policy has been updated. You can read the details at https://hr.example.com/policies. No action is required.
+
+HR Team",https://hr.example.com/policies,,LEGITIMATE,hr_update
+EML-00044,calendar@example.net,example.net,Reminder: project sync on Tuesday at 5 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-35
+
+Agenda attached.",https://meet.example.net/room-35,agenda.docx,LEGITIMATE,meeting_reminder
+EML-00045,ExampleBank Alerts <alerts@examplebank.example.com>,examplebank.example.com,Your July statement is ready,"Hello Maya,
+
+Your monthly statement is available in the ExampleBank app or at https://examplebank.example.com/statements. We will never ask for your password by email.",https://examplebank.example.com/statements,,LEGITIMATE,bank_notification
+EML-00046,ceo.office@example-corp.invalid.test,example-corp.invalid.test,Quick task - confidential,Are you at your desk? I am in a meeting and need you to buy gift cards for a client. Do this immediately and reply with the codes. Keep it confidential.,,,PHISHING,fake_executive_request
+EML-00047,ceo.office@example-corp.invalid.test,example-corp.invalid.test,Quick task - confidential,Are you at your desk? I am in a meeting and need you to buy gift cards for a client. Do this immediately and reply with the codes. Keep it confidential.,,,PHISHING,fake_executive_request
+EML-00048,registrar@example.org,example.org,Semester registration opens February 2,"Hello students,
+
+Registration for the next semester opens on February 13. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00049,hr@example.com,example.com,Urgent: Submit your documents today,"Hi Maya,
+
+Please submit your signed onboarding documents today so payroll can be processed on time. Upload them at https://hr.example.com/documents.
+
+HR Team",https://hr.example.com/documents,,LEGITIMATE,hr_update_urgent
+EML-00050,noah@example.com,example.com,Sprint 6 status update,"Hi team,
+
+We finished 7 tasks this sprint and 4 carry over. Board: https://projects.example.com/board.
+
+Thanks!",https://projects.example.com/board,,LEGITIMATE,project_update
+EML-00051,hr@example.com,example.com,Updated leave policy for 2027,"Hi all,
+
+The leave policy has been updated. You can read the details at https://hr.example.com/policies. No action is required.
+
+HR Team",https://hr.example.com/policies,,LEGITIMATE,hr_update
+EML-00052,projects@example-team.example.net,example-team.example.net,Updated project files,"Hello,
+
+Please see the updated project files attached and let me know your thoughts.",,files.zip,PHISHING,subtle_attachment
+EML-00053,calendar@example.net,example.net,Reminder: project sync on Thursday at 4 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-11
+
+Agenda attached.",https://meet.example.net/room-11,agenda.pdf,LEGITIMATE,meeting_reminder
+EML-00054,ceo.office@example-corp.invalid.test,example-corp.invalid.test,Quick task - confidential,Are you at your desk? I am in a meeting and need you to buy gift cards for a client. Do this immediately and reply with the codes. Keep it confidential.,,,PHISHING,fake_executive_request
+EML-00055,noah@example.com,example.com,Sprint 1 status update,"Hi team,
+
+We finished 9 tasks this sprint and 3 carry over. Board: https://projects.example.com/board.
+
+Thanks!",https://projects.example.com/board,sprint_report.pdf,LEGITIMATE,project_update
+EML-00056,projects@example-team.example.net,example-team.example.net,Updated project files,"Hello,
+
+Please see the updated project files attached and let me know your thoughts.",,notes.html,PHISHING,subtle_attachment
+EML-00057,delivery@parcel-track.example.net,parcel-track.example.net,Delivery failed - reschedule now,"Hello Customer,
+
+We could not deliver your parcel. Confirm your address and pay the small fee within 24 hours: http://short.example/aB3xY0",http://short.example/aB3xY0,,PHISHING,fake_delivery
+EML-00058,registrar@example.org,example.org,Semester registration opens June 2,"Hello students,
+
+Registration for the next semester opens on June 2. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00059,aarav@example.com,example.com,Sprint 17 status update,"Hi team,
+
+We finished 4 tasks this sprint and 2 carry over. Board: https://projects.example.com/board.
+
+Thanks!",https://projects.example.com/board,,LEGITIMATE,project_update
+EML-00060,calendar@example.net,example.net,Reminder: project sync on Monday at 5 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-26
+
+Agenda attached.",https://meet.example.net/room-26,,LEGITIMATE,meeting_reminder
+EML-00061,registrar@example.org,example.org,Semester registration opens October 3,"Hello students,
+
+Registration for the next semester opens on October 14. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00062,news@example.net,example.net,This month in tech: cloud basics,"Hello readers,
+
+This month we cover safe browsing and AI in education. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00063,calendar@example.net,example.net,Reminder: project sync on Thursday at 2 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-17
+
+Agenda attached.",https://meet.example.net/room-17,agenda.docx,LEGITIMATE,meeting_reminder
+EML-00064,ExampleBank Alerts <alerts@examplebank.example.com>,examplebank.example.com,Your June statement is ready,"Hello Priya,
+
+Your monthly statement is available in the ExampleBank app or at https://examplebank.example.com/statements. We will never ask for your password by email.",https://examplebank.example.com/statements,,LEGITIMATE,bank_notification
+EML-00065,billing@invoice-center.example.net,invoice-center.example.net,Invoice #19602 overdue - payment failed,"Dear Sir/Madam,
+
+Your invoice is past due and payment failed. Open the attached invoice and settle the outstanding balance today.",,Invoice_19602.zip,PHISHING,fake_invoice
+EML-00066,zoya@example.com,example.com,Sprint 3 status update,"Hi team,
+
+We finished 6 tasks this sprint and 3 carry over. Board: https://projects.example.com/board.
+
+Thanks!",https://projects.example.com/board,sprint_report.pdf,LEGITIMATE,project_update
+EML-00067,projects@example-team.example.net,example-team.example.net,Updated project files,"Hello,
+
+Please see the updated project files attached and let me know your thoughts.",,notes.html,PHISHING,subtle_attachment
+EML-00068,registrar@example.org,example.org,Semester registration opens September 10,"Hello students,
+
+Registration for the next semester opens on September 22. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00069,rewards@prize-center.invalid.test,prize-center.invalid.test,Congratulations! You have won a free gift!!!,"Dear Winner,
+
+You have won! Claim your prize now: http://claim-prize.example.net/44664
+Confirm your personal details and card number to receive it.",http://claim-prize.example.net/44664,,PHISHING,fake_prize
+EML-00070,billing@invoice-center.example.net,invoice-center.example.net,Invoice #82512 overdue - payment failed,"Dear Sir/Madam,
+
+Your invoice is past due and payment failed. Open the attached invoice and settle the outstanding balance today.",,Invoice_82512.zip,PHISHING,fake_invoice
+EML-00071,it-helpdesk@example-support.invalid.test,example-support.invalid.test,Your password expires today,"Dear User,
+
+Your password expires today. Update your password immediately to keep access: http://192.0.2.89/reset",http://192.0.2.89/reset,,PHISHING,fake_password_expiration
+EML-00072,orders@exampleshop.example.com,exampleshop.example.com,Your order #76244 has shipped,"Hi Isha,
+
+Thanks for your order. It shipped today and should arrive in 4 days. Track it at https://exampleshop.example.com/orders/76244.",https://exampleshop.example.com/orders/76244,,LEGITIMATE,shopping_confirmation
+EML-00073,ceo.office@example-corp.invalid.test,example-corp.invalid.test,Quick task - confidential,Are you at your desk? I am in a meeting and need you to buy gift cards for a client. Do this immediately and reply with the codes. Keep it confidential.,,,PHISHING,fake_executive_request
+EML-00074,registrar@example.org,example.org,Semester registration opens January 11,"Hello students,
+
+Registration for the next semester opens on January 25. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00075,delivery@parcel-track.example.net,parcel-track.example.net,Delivery failed - reschedule now,"Hello Customer,
+
+We could not deliver your parcel. Confirm your address and pay the small fee within 24 hours: http://short.example/aB3xY7",http://short.example/aB3xY7,,PHISHING,fake_delivery
+EML-00076,no-reply@example.com,example.com,Your password was changed,"Hi Ravi,
+
+The password for your account was changed on January 4. If this was you, no action is needed. If it was not you, contact the helpdesk through https://example.com/help.",https://example.com/help,,LEGITIMATE,password_change_confirmation
+EML-00077,rewards@prize-center.invalid.test,prize-center.invalid.test,Congratulations! You have won a free gift!!!,"Dear Winner,
+
+You have won! Claim your prize now: http://claim-prize.example.net/81511
+Confirm your personal details and card number to receive it.",http://claim-prize.example.net/81511,,PHISHING,fake_prize
+EML-00078,hr-payroll@example-hr.example.net,example-hr.example.net,Action required: confirm your payroll details,"Dear Employee,
+
+To avoid delays in your salary, please confirm your payroll details and send your bank account number by reply. Immediate action is required.",,,PHISHING,fake_hr_request
+EML-00079,noah@example.com,example.com,Sprint 5 status update,"Hi team,
+
+We finished 3 tasks this sprint and 3 carry over. Board: https://projects.example.com/board.
+
+Thanks!",https://projects.example.com/board,sprint_report.pdf,LEGITIMATE,project_update
+EML-00080,registrar@example.org,example.org,Semester registration opens June 7,"Hello students,
+
+Registration for the next semester opens on June 22. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00081,billing@invoice-center.example.net,invoice-center.example.net,Invoice #56357 overdue - payment failed,"Dear Sir/Madam,
+
+Your invoice is past due and payment failed. Open the attached invoice and settle the outstanding balance today.",,payment_56357.js,PHISHING,fake_invoice
+EML-00082,maya@example.com,example.com,Sprint 6 status update,"Hi team,
+
+We finished 5 tasks this sprint and 4 carry over. Board: https://projects.example.com/board.
+
+Thanks!",https://projects.example.com/board,,LEGITIMATE,project_update
+EML-00083,hr-payroll@example-hr.example.net,example-hr.example.net,Action required: confirm your payroll details,"Dear Employee,
+
+To avoid delays in your salary, please confirm your payroll details and send your bank account number by reply. Immediate action is required.",,,PHISHING,fake_hr_request
+EML-00084,no-reply@example.com,example.com,Your password was changed,"Hi Kabir,
+
+The password for your account was changed on April 9. If this was you, no action is needed. If it was not you, contact the helpdesk through https://example.com/help.",https://example.com/help,,LEGITIMATE,password_change_confirmation
+EML-00085,billing@invoice-center.example.net,invoice-center.example.net,Invoice #60140 overdue - payment failed,"Dear Sir/Madam,
+
+Your invoice is past due and payment failed. Open the attached invoice and settle the outstanding balance today.",,Invoice_60140.pdf.exe,PHISHING,fake_invoice
+EML-00086,calendar@example.net,example.net,Reminder: project sync on Thursday at 3 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-13
+
+Agenda attached.",https://meet.example.net/room-13,agenda.pdf,LEGITIMATE,meeting_reminder
+EML-00087,calendar@example.net,example.net,Reminder: project sync on Monday at 2 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-15
+
+Agenda attached.",https://meet.example.net/room-15,agenda.pdf,LEGITIMATE,meeting_reminder
+EML-00088,billing@invoice-center.example.net,invoice-center.example.net,Invoice #46585 overdue - payment failed,"Dear Sir/Madam,
+
+Your invoice is past due and payment failed. Open the attached invoice and settle the outstanding balance today.",,invoice_46585.html,PHISHING,fake_invoice
+EML-00089,no-reply@example.com,example.com,Your password was changed,"Hi Kabir,
+
+The password for your account was changed on September 11. If this was you, no action is needed. If it was not you, contact the helpdesk through https://example.com/help.",https://example.com/help,,LEGITIMATE,password_change_confirmation
+EML-00090,hr@example.com,example.com,Updated leave policy for 2026,"Hi all,
+
+The leave policy has been updated. You can read the details at https://hr.example.com/policies. No action is required.
+
+HR Team",https://hr.example.com/policies,,LEGITIMATE,hr_update
+EML-00091,delivery@parcel-track.example.net,parcel-track.example.net,Delivery failed - reschedule now,"Hello Customer,
+
+We could not deliver your parcel. Confirm your address and pay the small fee within 24 hours: http://short.example/aB3xY1",http://short.example/aB3xY1,,PHISHING,fake_delivery
+EML-00092,news@example.net,example.net,This month in tech: AI in education,"Hello readers,
+
+This month we cover cloud basics and data privacy. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00093,hr@example.com,example.com,Updated leave policy for 2027,"Hi all,
+
+The leave policy has been updated. You can read the details at https://hr.example.com/policies. No action is required.
+
+HR Team",https://hr.example.com/policies,,LEGITIMATE,hr_update
+EML-00094,no-reply@verify-examplebank.example.org,verify-examplebank.example.org,Security alert: confirm your identity,"Dear Customer,
+
+Unusual activity was detected. Your account will be suspended within 24 hours unless you verify your account immediately: http://secure-login.invalid.test/account/verify?id=80575
+Enter your password to restore access.",http://secure-login.invalid.test/account/verify?id=80575,,PHISHING,fake_account_verification
+EML-00095,calendar@example.net,example.net,Reminder: project sync on Thursday at 1 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-24
+
+Agenda attached.",https://meet.example.net/room-24,agenda.docx,LEGITIMATE,meeting_reminder
+EML-00096,news@example.net,example.net,This month in tech: AI in education,"Hello readers,
+
+This month we cover password managers and AI in education. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00097,orders@exampleshop.example.com,exampleshop.example.com,Your order #97410 has shipped,"Hi Noah,
+
+Thanks for your order. It shipped today and should arrive in 4 days. Track it at https://exampleshop.example.com/orders/97410.",https://exampleshop.example.com/orders/97410,receipt_97410.pdf,LEGITIMATE,shopping_confirmation
+EML-00098,maya@example.com,example.com,Sprint 14 status update,"Hi team,
+
+We finished 9 tasks this sprint and 2 carry over. Board: https://projects.example.com/board.
+
+Thanks!",https://projects.example.com/board,burndown.xlsx,LEGITIMATE,project_update
+EML-00099,no-reply@example.com,example.com,Your password was changed,"Hi Ravi,
+
+The password for your account was changed on January 10. If this was you, no action is needed. If it was not you, contact the helpdesk through https://example.com/help.",https://example.com/help,,LEGITIMATE,password_change_confirmation
+EML-00100,ceo.office@example-corp.invalid.test,example-corp.invalid.test,Quick task - confidential,Are you at your desk? I am in a meeting and need you to buy gift cards for a client. Do this immediately and reply with the codes. Keep it confidential.,,,PHISHING,fake_executive_request
+EML-00101,news@example.net,example.net,This month in tech: data privacy,"Hello readers,
+
+This month we cover data privacy and data privacy. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00102,ExampleBank Alerts <alerts@examplebank.example.com>,examplebank.example.com,Your March statement is ready,"Hello Kabir,
+
+Your monthly statement is available in the ExampleBank app or at https://examplebank.example.com/statements. We will never ask for your password by email.",https://examplebank.example.com/statements,,LEGITIMATE,bank_notification
+EML-00103,projects@example-team.example.net,example-team.example.net,Updated project files,"Hello,
+
+Please see the updated project files attached and let me know your thoughts.",,notes.html,PHISHING,subtle_attachment
+EML-00104,it-helpdesk@example-support.invalid.test,example-support.invalid.test,Your password expires today,"Dear User,
+
+Your password expires today. Update your password immediately to keep access: http://192.0.2.81/reset",http://192.0.2.81/reset,,PHISHING,fake_password_expiration
+EML-00105,aarav@example.com,example.com,Sprint 2 status update,"Hi team,
+
+We finished 6 tasks this sprint and 4 carry over. Board: https://projects.example.com/board.
+
+Thanks!",https://projects.example.com/board,burndown.xlsx,LEGITIMATE,project_update
+EML-00106,hr@example.com,example.com,Updated leave policy for 2027,"Hi all,
+
+The leave policy has been updated. You can read the details at https://hr.example.com/policies. No action is required.
+
+HR Team",https://hr.example.com/policies,,LEGITIMATE,hr_update
+EML-00107,no-reply@example.com,example.com,Your password was changed,"Hi Isha,
+
+The password for your account was changed on July 8. If this was you, no action is needed. If it was not you, contact the helpdesk through https://example.com/help.",https://example.com/help,,LEGITIMATE,password_change_confirmation
+EML-00108,security-alert@account-check.invalid.test,account-check.invalid.test,Security alert: confirm your identity,"Dear Customer,
+
+Unusual activity was detected. Your account will be suspended within 24 hours unless you verify your account immediately: http://secure-login.invalid.test/account/verify?id=33053
+Enter your password to restore access.",http://secure-login.invalid.test/account/verify?id=33053,,PHISHING,fake_account_verification
+EML-00109,calendar@example.net,example.net,Reminder: project sync on Monday at 4 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-59
+
+Agenda attached.",https://meet.example.net/room-59,,LEGITIMATE,meeting_reminder
+EML-00110,news@example.net,example.net,This month in tech: data privacy,"Hello readers,
+
+This month we cover open-source tools and AI in education. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00111,no-reply@example.com,example.com,Your password was changed,"Hi Ravi,
+
+The password for your account was changed on August 6. If this was you, no action is needed. If it was not you, contact the helpdesk through https://example.com/help.",https://example.com/help,,LEGITIMATE,password_change_confirmation
+EML-00112,ExampleBank Alerts <alerts@examplebank.example.com>,examplebank.example.com,Your August statement is ready,"Hello Liam,
+
+Your monthly statement is available in the ExampleBank app or at https://examplebank.example.com/statements. We will never ask for your password by email.",https://examplebank.example.com/statements,,LEGITIMATE,bank_notification
+EML-00113,orders@exampleshop.example.com,exampleshop.example.com,Your order #78327 has shipped,"Hi Isha,
+
+Thanks for your order. It shipped today and should arrive in 3 days. Track it at https://exampleshop.example.com/orders/78327.",https://exampleshop.example.com/orders/78327,receipt_78327.pdf,LEGITIMATE,shopping_confirmation
+EML-00114,delivery@parcel-track.example.net,parcel-track.example.net,Delivery failed - reschedule now,"Hello Customer,
+
+We could not deliver your parcel. Confirm your address and pay the small fee within 24 hours: http://short.example/aB3xY4",http://short.example/aB3xY4,,PHISHING,fake_delivery
+EML-00115,projects@example-team.example.net,example-team.example.net,Updated project files,"Hello,
+
+Please see the updated project files attached and let me know your thoughts.",,files.zip,PHISHING,subtle_attachment
+EML-00116,it-helpdesk@example-support.invalid.test,example-support.invalid.test,Your password expires today,"Dear User,
+
+Your password expires today. Update your password immediately to keep access: http://203.0.113.179/reset",http://203.0.113.179/reset,,PHISHING,fake_password_expiration
+EML-00117,hr@example.com,example.com,Updated leave policy for 2026,"Hi all,
+
+The leave policy has been updated. You can read the details at https://hr.example.com/policies. No action is required.
+
+HR Team",https://hr.example.com/policies,,LEGITIMATE,hr_update
+EML-00118,no-reply@example.com,example.com,Your password was changed,"Hi Aarav,
+
+The password for your account was changed on April 27. If this was you, no action is needed. If it was not you, contact the helpdesk through https://example.com/help.",https://example.com/help,,LEGITIMATE,password_change_confirmation
+EML-00119,no-reply@verify-examplebank.example.org,verify-examplebank.example.org,Account suspended - action required,"Dear Customer,
+
+Unusual activity was detected. Your account will be suspended within 24 hours unless you verify your account immediately: http://examplebank.verify-login.example.net/signin
+Enter your password to restore access.",http://examplebank.verify-login.example.net/signin,,PHISHING,fake_account_verification
+EML-00120,no-reply@example.com,example.com,Your password was changed,"Hi Ravi,
+
+The password for your account was changed on September 26. If this was you, no action is needed. If it was not you, contact the helpdesk through https://example.com/help.",https://example.com/help,,LEGITIMATE,password_change_confirmation
+EML-00121,calendar@example.net,example.net,Reminder: project sync on Tuesday at 3 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-32
+
+Agenda attached.",https://meet.example.net/room-32,agenda.pdf,LEGITIMATE,meeting_reminder
+EML-00122,no-reply@example.com,example.com,Your password was changed,"Hi Zoya,
+
+The password for your account was changed on July 24. If this was you, no action is needed. If it was not you, contact the helpdesk through https://example.com/help.",https://example.com/help,,LEGITIMATE,password_change_confirmation
+EML-00123,docs-share@example-docs.example.net,example-docs.example.net,Document shared with you,"Hi Emma,
+
+A colleague shared the meeting notes with you. You can view them here: https://docs-share.example.net/view/26728",https://docs-share.example.net/view/26728,,PHISHING,subtle_document_share
+EML-00124,no-reply@example.com,example.com,Your password was changed,"Hi Emma,
+
+The password for your account was changed on October 22. If this was you, no action is needed. If it was not you, contact the helpdesk through https://example.com/help.",https://example.com/help,,LEGITIMATE,password_change_confirmation
+EML-00125,ceo.office@example-corp.invalid.test,example-corp.invalid.test,Quick task - confidential,Are you at your desk? I am in a meeting and need you to buy gift cards for a client. Do this immediately and reply with the codes. Keep it confidential.,,,PHISHING,fake_executive_request
+EML-00126,docs-share@example-docs.example.net,example-docs.example.net,Document shared with you,"Hi Aarav,
+
+A colleague shared the meeting notes with you. You can view them here: https://docs-share.example.net/view/33819",https://docs-share.example.net/view/33819,,PHISHING,subtle_document_share
+EML-00127,hr-payroll@example-hr.example.net,example-hr.example.net,Action required: confirm your payroll details,"Dear Employee,
+
+To avoid delays in your salary, please confirm your payroll details and send your bank account number by reply. Immediate action is required.",,,PHISHING,fake_hr_request
+EML-00128,hr-payroll@example-hr.example.net,example-hr.example.net,Action required: confirm your payroll details,"Dear Employee,
+
+To avoid delays in your salary, please confirm your payroll details and send your bank account number by reply. Immediate action is required.",,,PHISHING,fake_hr_request
+EML-00129,ceo.office@example-corp.invalid.test,example-corp.invalid.test,Quick task - confidential,Are you at your desk? I am in a meeting and need you to buy gift cards for a client. Do this immediately and reply with the codes. Keep it confidential.,,,PHISHING,fake_executive_request
+EML-00130,ceo.office@example-corp.invalid.test,example-corp.invalid.test,Quick task - confidential,Are you at your desk? I am in a meeting and need you to buy gift cards for a client. Do this immediately and reply with the codes. Keep it confidential.,,,PHISHING,fake_executive_request
+EML-00131,billing@invoice-center.example.net,invoice-center.example.net,Invoice #71644 overdue - payment failed,"Dear Sir/Madam,
+
+Your invoice is past due and payment failed. Open the attached invoice and settle the outstanding balance today.",,Invoice_71644.pdf.exe,PHISHING,fake_invoice
+EML-00132,registrar@example.org,example.org,Semester registration opens June 8,"Hello students,
+
+Registration for the next semester opens on June 21. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00133,security-alert@account-check.invalid.test,account-check.invalid.test,URGENT: Verify Your Account Immediately,"Dear Customer,
+
+Unusual activity was detected. Your account will be suspended within 24 hours unless you verify your account immediately: http://secure-login.invalid.test/account/verify?id=12671
+Enter your password to restore access.",http://secure-login.invalid.test/account/verify?id=12671,,PHISHING,fake_account_verification
+EML-00134,docs-share@example-docs.example.net,example-docs.example.net,Document shared with you,"Hi Priya,
+
+A colleague shared the meeting notes with you. You can view them here: https://docs-share.example.net/view/97747",https://docs-share.example.net/view/97747,,PHISHING,subtle_document_share
+EML-00135,calendar@example.net,example.net,Reminder: project sync on Wednesday at 3 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-30
+
+Agenda attached.",https://meet.example.net/room-30,,LEGITIMATE,meeting_reminder
+EML-00136,hr@example.com,example.com,Updated leave policy for 2025,"Hi all,
+
+The leave policy has been updated. You can read the details at https://hr.example.com/policies. No action is required.
+
+HR Team",https://hr.example.com/policies,,LEGITIMATE,hr_update
+EML-00137,hr@example.com,example.com,Updated leave policy for 2026,"Hi all,
+
+The leave policy has been updated. You can read the details at https://hr.example.com/policies. No action is required.
+
+HR Team",https://hr.example.com/policies,,LEGITIMATE,hr_update
+EML-00138,no-reply@example.com,example.com,Your password was changed,"Hi Noah,
+
+The password for your account was changed on April 3. If this was you, no action is needed. If it was not you, contact the helpdesk through https://example.com/help.",https://example.com/help,,LEGITIMATE,password_change_confirmation
+EML-00139,calendar@example.net,example.net,Reminder: project sync on Wednesday at 5 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-7
+
+Agenda attached.",https://meet.example.net/room-7,,LEGITIMATE,meeting_reminder
+EML-00140,registrar@example.org,example.org,Semester registration opens June 18,"Hello students,
+
+Registration for the next semester opens on June 14. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00141,hr@example.com,example.com,Updated leave policy for 2026,"Hi all,
+
+The leave policy has been updated. You can read the details at https://hr.example.com/policies. No action is required.
+
+HR Team",https://hr.example.com/policies,,LEGITIMATE,hr_update
+EML-00142,ceo.office@example-corp.invalid.test,example-corp.invalid.test,Quick task - confidential,Are you at your desk? I am in a meeting and need you to buy gift cards for a client. Do this immediately and reply with the codes. Keep it confidential.,,,PHISHING,fake_executive_request
+EML-00143,hr@example.com,example.com,Updated leave policy for 2026,"Hi all,
+
+The leave policy has been updated. You can read the details at https://hr.example.com/policies. No action is required.
+
+HR Team",https://hr.example.com/policies,,LEGITIMATE,hr_update
+EML-00144,ExampleBank Alerts <alerts@examplebank.example.com>,examplebank.example.com,Your March statement is ready,"Hello Noah,
+
+Your monthly statement is available in the ExampleBank app or at https://examplebank.example.com/statements. We will never ask for your password by email.",https://examplebank.example.com/statements,,LEGITIMATE,bank_notification
+EML-00145,projects@example-team.example.net,example-team.example.net,Updated project files,"Hello,
+
+Please see the updated project files attached and let me know your thoughts.",,notes.html,PHISHING,subtle_attachment
+EML-00146,ExampleBank Alerts <alerts@examplebank.example.com>,examplebank.example.com,Your August statement is ready,"Hello Noah,
+
+Your monthly statement is available in the ExampleBank app or at https://examplebank.example.com/statements. We will never ask for your password by email.",https://examplebank.example.com/statements,,LEGITIMATE,bank_notification
+EML-00147,orders@exampleshop.example.com,exampleshop.example.com,Your order #52245 has shipped,"Hi Maya,
+
+Thanks for your order. It shipped today and should arrive in 2 days. Track it at https://exampleshop.example.com/orders/52245.",https://exampleshop.example.com/orders/52245,receipt_52245.pdf,LEGITIMATE,shopping_confirmation
+EML-00148,calendar@example.net,example.net,Reminder: project sync on Thursday at 5 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-49
+
+Agenda attached.",https://meet.example.net/room-49,agenda.docx,LEGITIMATE,meeting_reminder
+EML-00149,news@example.net,example.net,This month in tech: password managers,"Hello readers,
+
+This month we cover data privacy and cloud basics. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00150,it-helpdesk@example-support.invalid.test,example-support.invalid.test,Your password expires today,"Dear User,
+
+Your password expires today. Update your password immediately to keep access: http://it-portal.update-login.example.net/password",http://it-portal.update-login.example.net/password,,PHISHING,fake_password_expiration
+EML-00151,delivery@parcel-track.example.net,parcel-track.example.net,Delivery failed - reschedule now,"Hello Customer,
+
+We could not deliver your parcel. Confirm your address and pay the small fee within 24 hours: http://short.example/Zq7Rt0",http://short.example/Zq7Rt0,,PHISHING,fake_delivery
+EML-00152,calendar@example.net,example.net,Reminder: project sync on Tuesday at 4 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-6
+
+Agenda attached.",https://meet.example.net/room-6,agenda.pdf,LEGITIMATE,meeting_reminder
+EML-00153,calendar@example.net,example.net,Reminder: project sync on Thursday at 4 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-45
+
+Agenda attached.",https://meet.example.net/room-45,agenda.pdf,LEGITIMATE,meeting_reminder
+EML-00154,hr@example.com,example.com,Urgent: Submit your documents today,"Hi Noah,
+
+Please submit your signed onboarding documents today so payroll can be processed on time. Upload them at https://hr.example.com/documents.
+
+HR Team",https://hr.example.com/documents,,LEGITIMATE,hr_update_urgent
+EML-00155,orders@exampleshop.example.com,exampleshop.example.com,Your order #97026 has shipped,"Hi Emma,
+
+Thanks for your order. It shipped today and should arrive in 4 days. Track it at https://exampleshop.example.com/orders/97026.",https://exampleshop.example.com/orders/97026,receipt_97026.pdf,LEGITIMATE,shopping_confirmation
+EML-00156,news@example.net,example.net,This month in tech: data privacy,"Hello readers,
+
+This month we cover AI in education and open-source tools. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00157,docs-share@example-docs.example.net,example-docs.example.net,Document shared with you,"Hi Liam,
+
+A colleague shared the meeting notes with you. You can view them here: https://docs-share.example.net/view/45509",https://docs-share.example.net/view/45509,,PHISHING,subtle_document_share
+EML-00158,billing@invoice-center.example.net,invoice-center.example.net,Invoice #35242 overdue - payment failed,"Dear Sir/Madam,
+
+Your invoice is past due and payment failed. Open the attached invoice and settle the outstanding balance today.",,invoice_35242.html,PHISHING,fake_invoice
+EML-00159,projects@example-team.example.net,example-team.example.net,Updated project files,"Hello,
+
+Please see the updated project files attached and let me know your thoughts.",,files.zip,PHISHING,subtle_attachment
+EML-00160,docs-share@example-docs.example.net,example-docs.example.net,Document shared with you,"Hi Sara,
+
+A colleague shared the meeting notes with you. You can view them here: https://docs-share.example.net/view/46241",https://docs-share.example.net/view/46241,,PHISHING,subtle_document_share
+EML-00161,orders@exampleshop.example.com,exampleshop.example.com,Your order #23176 has shipped,"Hi Maya,
+
+Thanks for your order. It shipped today and should arrive in 4 days. Track it at https://exampleshop.example.com/orders/23176.",https://exampleshop.example.com/orders/23176,,LEGITIMATE,shopping_confirmation
+EML-00162,delivery@parcel-track.example.net,parcel-track.example.net,Delivery failed - reschedule now,"Hello Customer,
+
+We could not deliver your parcel. Confirm your address and pay the small fee within 24 hours: http://short.example/aB3xY8",http://short.example/aB3xY8,,PHISHING,fake_delivery
+EML-00163,security-alert@account-check.invalid.test,account-check.invalid.test,Account suspended - action required,"Dear Customer,
+
+Unusual activity was detected. Your account will be suspended within 24 hours unless you verify your account immediately: http://secure-login.invalid.test/account/verify?id=26551
+Enter your password to restore access.",http://secure-login.invalid.test/account/verify?id=26551,,PHISHING,fake_account_verification
+EML-00164,ExampleBank Support <alerts@verify-mail.invalid.test>,verify-mail.invalid.test,URGENT: Verify Your Account Immediately,"Dear Customer,
+
+Unusual activity was detected. Your account will be suspended within 24 hours unless you verify your account immediately: http://examplebank.verify-login.example.net/signin
+Enter your password to restore access.",http://examplebank.verify-login.example.net/signin,,PHISHING,fake_account_verification
+EML-00165,orders@exampleshop.example.com,exampleshop.example.com,Your order #72616 has shipped,"Hi Priya,
+
+Thanks for your order. It shipped today and should arrive in 2 days. Track it at https://exampleshop.example.com/orders/72616.",https://exampleshop.example.com/orders/72616,receipt_72616.pdf,LEGITIMATE,shopping_confirmation
+EML-00166,registrar@example.org,example.org,Semester registration opens March 5,"Hello students,
+
+Registration for the next semester opens on March 26. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00167,orders@exampleshop.example.com,exampleshop.example.com,Your order #21164 has shipped,"Hi Maya,
+
+Thanks for your order. It shipped today and should arrive in 2 days. Track it at https://exampleshop.example.com/orders/21164.",https://exampleshop.example.com/orders/21164,receipt_21164.pdf,LEGITIMATE,shopping_confirmation
+EML-00168,calendar@example.net,example.net,Reminder: project sync on Friday at 4 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-50
+
+Agenda attached.",https://meet.example.net/room-50,agenda.pdf,LEGITIMATE,meeting_reminder
+EML-00169,orders@exampleshop.example.com,exampleshop.example.com,Your order #87139 has shipped,"Hi Noah,
+
+Thanks for your order. It shipped today and should arrive in 4 days. Track it at https://exampleshop.example.com/orders/87139.",https://exampleshop.example.com/orders/87139,,LEGITIMATE,shopping_confirmation
+EML-00170,hr@example.com,example.com,Updated leave policy for 2025,"Hi all,
+
+The leave policy has been updated. You can read the details at https://hr.example.com/policies. No action is required.
+
+HR Team",https://hr.example.com/policies,,LEGITIMATE,hr_update
+EML-00171,orders@exampleshop.example.com,exampleshop.example.com,Your order #96563 has shipped,"Hi Priya,
+
+Thanks for your order. It shipped today and should arrive in 3 days. Track it at https://exampleshop.example.com/orders/96563.",https://exampleshop.example.com/orders/96563,,LEGITIMATE,shopping_confirmation
+EML-00172,billing@invoice-center.example.net,invoice-center.example.net,Invoice #30517 overdue - payment failed,"Dear Sir/Madam,
+
+Your invoice is past due and payment failed. Open the attached invoice and settle the outstanding balance today.",,Invoice_30517.pdf.exe,PHISHING,fake_invoice
+EML-00173,docs-share@example-docs.example.net,example-docs.example.net,Document shared with you,"Hi Aarav,
+
+A colleague shared the meeting notes with you. You can view them here: https://docs-share.example.net/view/48175",https://docs-share.example.net/view/48175,,PHISHING,subtle_document_share
+EML-00174,delivery@parcel-track.example.net,parcel-track.example.net,Delivery failed - reschedule now,"Hello Customer,
+
+We could not deliver your parcel. Confirm your address and pay the small fee within 24 hours: http://short.example/Zq7Rt7",http://short.example/Zq7Rt7,,PHISHING,fake_delivery
+EML-00175,it-helpdesk@example-support.invalid.test,example-support.invalid.test,Your password expires today,"Dear User,
+
+Your password expires today. Update your password immediately to keep access: http://203.0.113.203/reset",http://203.0.113.203/reset,,PHISHING,fake_password_expiration
+EML-00176,projects@example-team.example.net,example-team.example.net,Updated project files,"Hello,
+
+Please see the updated project files attached and let me know your thoughts.",,files.zip,PHISHING,subtle_attachment
+EML-00177,orders@exampleshop.example.com,exampleshop.example.com,Your order #28643 has shipped,"Hi Priya,
+
+Thanks for your order. It shipped today and should arrive in 2 days. Track it at https://exampleshop.example.com/orders/28643.",https://exampleshop.example.com/orders/28643,,LEGITIMATE,shopping_confirmation
+EML-00178,orders@exampleshop.example.com,exampleshop.example.com,Your order #67560 has shipped,"Hi Priya,
+
+Thanks for your order. It shipped today and should arrive in 5 days. Track it at https://exampleshop.example.com/orders/67560.",https://exampleshop.example.com/orders/67560,receipt_67560.pdf,LEGITIMATE,shopping_confirmation
+EML-00179,orders@exampleshop.example.com,exampleshop.example.com,Your order #75597 has shipped,"Hi Ravi,
+
+Thanks for your order. It shipped today and should arrive in 5 days. Track it at https://exampleshop.example.com/orders/75597.",https://exampleshop.example.com/orders/75597,receipt_75597.pdf,LEGITIMATE,shopping_confirmation
+EML-00180,no-reply@verify-examplebank.example.org,verify-examplebank.example.org,URGENT: Verify Your Account Immediately,"Dear Customer,
+
+Unusual activity was detected. Your account will be suspended within 24 hours unless you verify your account immediately: http://examplebank.verify-login.example.net/signin
+Enter your password to restore access.",http://examplebank.verify-login.example.net/signin,,PHISHING,fake_account_verification
+EML-00181,ExampleBank Support <alerts@verify-mail.invalid.test>,verify-mail.invalid.test,Security alert: confirm your identity,"Dear Customer,
+
+Unusual activity was detected. Your account will be suspended within 24 hours unless you verify your account immediately: http://examplebank.verify-login.example.net/signin
+Enter your password to restore access.",http://examplebank.verify-login.example.net/signin,,PHISHING,fake_account_verification
+EML-00182,orders@exampleshop.example.com,exampleshop.example.com,Your order #33788 has shipped,"Hi Emma,
+
+Thanks for your order. It shipped today and should arrive in 5 days. Track it at https://exampleshop.example.com/orders/33788.",https://exampleshop.example.com/orders/33788,receipt_33788.pdf,LEGITIMATE,shopping_confirmation
+EML-00183,ExampleBank Alerts <alerts@examplebank.example.com>,examplebank.example.com,Your June statement is ready,"Hello Noah,
+
+Your monthly statement is available in the ExampleBank app or at https://examplebank.example.com/statements. We will never ask for your password by email.",https://examplebank.example.com/statements,,LEGITIMATE,bank_notification
+EML-00184,billing@invoice-center.example.net,invoice-center.example.net,Invoice #31079 overdue - payment failed,"Dear Sir/Madam,
+
+Your invoice is past due and payment failed. Open the attached invoice and settle the outstanding balance today.",,invoice_31079.html,PHISHING,fake_invoice
+EML-00185,docs-share@example-docs.example.net,example-docs.example.net,Document shared with you,"Hi Kabir,
+
+A colleague shared the meeting notes with you. You can view them here: https://docs-share.example.net/view/47777",https://docs-share.example.net/view/47777,,PHISHING,subtle_document_share
+EML-00186,registrar@example.org,example.org,Semester registration opens August 3,"Hello students,
+
+Registration for the next semester opens on August 11. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00187,billing@invoice-center.example.net,invoice-center.example.net,Invoice #62976 overdue - payment failed,"Dear Sir/Madam,
+
+Your invoice is past due and payment failed. Open the attached invoice and settle the outstanding balance today.",,Invoice_62976.pdf.exe,PHISHING,fake_invoice
+EML-00188,ExampleBank Alerts <alerts@examplebank.example.com>,examplebank.example.com,Your July statement is ready,"Hello Aarav,
+
+Your monthly statement is available in the ExampleBank app or at https://examplebank.example.com/statements. We will never ask for your password by email.",https://examplebank.example.com/statements,,LEGITIMATE,bank_notification
+EML-00189,hr-payroll@example-hr.example.net,example-hr.example.net,Action required: confirm your payroll details,"Dear Employee,
+
+To avoid delays in your salary, please confirm your payroll details and send your bank account number by reply. Immediate action is required.",,,PHISHING,fake_hr_request
+EML-00190,ExampleBank Alerts <alerts@examplebank.example.com>,examplebank.example.com,Your August statement is ready,"Hello Aarav,
+
+Your monthly statement is available in the ExampleBank app or at https://examplebank.example.com/statements. We will never ask for your password by email.",https://examplebank.example.com/statements,,LEGITIMATE,bank_notification
+EML-00191,projects@example-team.example.net,example-team.example.net,Updated project files,"Hello,
+
+Please see the updated project files attached and let me know your thoughts.",,files.zip,PHISHING,subtle_attachment
+EML-00192,ExampleBank Alerts <alerts@examplebank.example.com>,examplebank.example.com,Your August statement is ready,"Hello Priya,
+
+Your monthly statement is available in the ExampleBank app or at https://examplebank.example.com/statements. We will never ask for your password by email.",https://examplebank.example.com/statements,,LEGITIMATE,bank_notification
+EML-00193,it-helpdesk@example-support.invalid.test,example-support.invalid.test,Your password expires today,"Dear User,
+
+Your password expires today. Update your password immediately to keep access: http://it-portal.update-login.example.net/password",http://it-portal.update-login.example.net/password,,PHISHING,fake_password_expiration
+EML-00194,no-reply@example.com,example.com,Your password was changed,"Hi Priya,
+
+The password for your account was changed on April 27. If this was you, no action is needed. If it was not you, contact the helpdesk through https://example.com/help.",https://example.com/help,,LEGITIMATE,password_change_confirmation
+EML-00195,ExampleBank Alerts <alerts@examplebank.example.com>,examplebank.example.com,Your February statement is ready,"Hello Kabir,
+
+Your monthly statement is available in the ExampleBank app or at https://examplebank.example.com/statements. We will never ask for your password by email.",https://examplebank.example.com/statements,,LEGITIMATE,bank_notification
+EML-00196,ExampleBank Alerts <alerts@examplebank.example.com>,examplebank.example.com,Your May statement is ready,"Hello Ravi,
+
+Your monthly statement is available in the ExampleBank app or at https://examplebank.example.com/statements. We will never ask for your password by email.",https://examplebank.example.com/statements,,LEGITIMATE,bank_notification
+EML-00197,no-reply@example.com,example.com,Your password was changed,"Hi Isha,
+
+The password for your account was changed on August 8. If this was you, no action is needed. If it was not you, contact the helpdesk through https://example.com/help.",https://example.com/help,,LEGITIMATE,password_change_confirmation
+EML-00198,noah@example.com,example.com,Sprint 7 status update,"Hi team,
+
+We finished 12 tasks this sprint and 2 carry over. Board: https://projects.example.com/board.
+
+Thanks!",https://projects.example.com/board,,LEGITIMATE,project_update
+EML-00199,ceo.office@example-corp.invalid.test,example-corp.invalid.test,Quick task - confidential,Are you at your desk? I am in a meeting and need you to buy gift cards for a client. Do this immediately and reply with the codes. Keep it confidential.,,,PHISHING,fake_executive_request
+EML-00200,projects@example-team.example.net,example-team.example.net,Updated project files,"Hello,
+
+Please see the updated project files attached and let me know your thoughts.",,notes.html,PHISHING,subtle_attachment
+EML-00201,orders@exampleshop.example.com,exampleshop.example.com,Your order #49132 has shipped,"Hi Emma,
+
+Thanks for your order. It shipped today and should arrive in 6 days. Track it at https://exampleshop.example.com/orders/49132.",https://exampleshop.example.com/orders/49132,receipt_49132.pdf,LEGITIMATE,shopping_confirmation
+EML-00202,ExampleBank Alerts <alerts@examplebank.example.com>,examplebank.example.com,Your September statement is ready,"Hello Isha,
+
+Your monthly statement is available in the ExampleBank app or at https://examplebank.example.com/statements. We will never ask for your password by email.",https://examplebank.example.com/statements,,LEGITIMATE,bank_notification
+EML-00203,projects@example-team.example.net,example-team.example.net,Updated project files,"Hello,
+
+Please see the updated project files attached and let me know your thoughts.",,notes.html,PHISHING,subtle_attachment
+EML-00204,news@example.net,example.net,This month in tech: safe browsing,"Hello readers,
+
+This month we cover AI in education and safe browsing. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00205,calendar@example.net,example.net,Reminder: project sync on Thursday at 1 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-55
+
+Agenda attached.",https://meet.example.net/room-55,agenda.pdf,LEGITIMATE,meeting_reminder
+EML-00206,no-reply@example.com,example.com,Your password was changed,"Hi Noah,
+
+The password for your account was changed on March 16. If this was you, no action is needed. If it was not you, contact the helpdesk through https://example.com/help.",https://example.com/help,,LEGITIMATE,password_change_confirmation
+EML-00207,ravi@example.com,example.com,Sprint 19 status update,"Hi team,
+
+We finished 8 tasks this sprint and 1 carry over. Board: https://projects.example.com/board.
+
+Thanks!",https://projects.example.com/board,sprint_report.pdf,LEGITIMATE,project_update
+EML-00208,docs-share@example-docs.example.net,example-docs.example.net,Document shared with you,"Hi Sara,
+
+A colleague shared the meeting notes with you. You can view them here: https://docs-share.example.net/view/12011",https://docs-share.example.net/view/12011,,PHISHING,subtle_document_share
+EML-00209,rewards@prize-center.invalid.test,prize-center.invalid.test,Congratulations! You have won a free gift!!!,"Dear Winner,
+
+You have won! Claim your prize now: http://claim-prize.example.net/19807
+Confirm your personal details and card number to receive it.",http://claim-prize.example.net/19807,,PHISHING,fake_prize
+EML-00210,orders@exampleshop.example.com,exampleshop.example.com,Your order #54375 has shipped,"Hi Emma,
+
+Thanks for your order. It shipped today and should arrive in 5 days. Track it at https://exampleshop.example.com/orders/54375.",https://exampleshop.example.com/orders/54375,,LEGITIMATE,shopping_confirmation
+EML-00211,no-reply@example.com,example.com,Your password was changed,"Hi Zoya,
+
+The password for your account was changed on August 28. If this was you, no action is needed. If it was not you, contact the helpdesk through https://example.com/help.",https://example.com/help,,LEGITIMATE,password_change_confirmation
+EML-00212,hr@example.com,example.com,Urgent: Submit your documents today,"Hi Kabir,
+
+Please submit your signed onboarding documents today so payroll can be processed on time. Upload them at https://hr.example.com/documents.
+
+HR Team",https://hr.example.com/documents,,LEGITIMATE,hr_update_urgent
+EML-00213,calendar@example.net,example.net,Reminder: project sync on Monday at 4 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-48
+
+Agenda attached.",https://meet.example.net/room-48,,LEGITIMATE,meeting_reminder
+EML-00214,hr@example.com,example.com,Updated leave policy for 2027,"Hi all,
+
+The leave policy has been updated. You can read the details at https://hr.example.com/policies. No action is required.
+
+HR Team",https://hr.example.com/policies,,LEGITIMATE,hr_update
+EML-00215,security-alert@account-check.invalid.test,account-check.invalid.test,Account suspended - action required,"Dear Customer,
+
+Unusual activity was detected. Your account will be suspended within 24 hours unless you verify your account immediately: http://examplebank.verify-login.example.net/signin
+Enter your password to restore access.",http://examplebank.verify-login.example.net/signin,,PHISHING,fake_account_verification
+EML-00216,rewards@prize-center.invalid.test,prize-center.invalid.test,Congratulations! You have won a free gift!!!,"Dear Winner,
+
+You have won! Claim your prize now: http://claim-prize.example.net/42007
+Confirm your personal details and card number to receive it.",http://claim-prize.example.net/42007,,PHISHING,fake_prize
+EML-00217,sam@example.com,example.com,Sprint 6 status update,"Hi team,
+
+We finished 4 tasks this sprint and 4 carry over. Board: https://projects.example.com/board.
+
+Thanks!",https://projects.example.com/board,burndown.xlsx,LEGITIMATE,project_update
+EML-00218,ExampleBank Alerts <alerts@examplebank.example.com>,examplebank.example.com,Your October statement is ready,"Hello Sam,
+
+Your monthly statement is available in the ExampleBank app or at https://examplebank.example.com/statements. We will never ask for your password by email.",https://examplebank.example.com/statements,,LEGITIMATE,bank_notification
+EML-00219,delivery@parcel-track.example.net,parcel-track.example.net,Delivery failed - reschedule now,"Hello Customer,
+
+We could not deliver your parcel. Confirm your address and pay the small fee within 24 hours: http://short.example/k9Lm24",http://short.example/k9Lm24,,PHISHING,fake_delivery
+EML-00220,ExampleBank Alerts <alerts@examplebank.example.com>,examplebank.example.com,Your May statement is ready,"Hello Kabir,
+
+Your monthly statement is available in the ExampleBank app or at https://examplebank.example.com/statements. We will never ask for your password by email.",https://examplebank.example.com/statements,,LEGITIMATE,bank_notification
+EML-00221,hr@example.com,example.com,Updated leave policy for 2026,"Hi all,
+
+The leave policy has been updated. You can read the details at https://hr.example.com/policies. No action is required.
+
+HR Team",https://hr.example.com/policies,,LEGITIMATE,hr_update
+EML-00222,orders@exampleshop.example.com,exampleshop.example.com,Your order #93746 has shipped,"Hi Noah,
+
+Thanks for your order. It shipped today and should arrive in 4 days. Track it at https://exampleshop.example.com/orders/93746.",https://exampleshop.example.com/orders/93746,receipt_93746.pdf,LEGITIMATE,shopping_confirmation
+EML-00223,calendar@example.net,example.net,Reminder: project sync on Thursday at 1 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-25
+
+Agenda attached.",https://meet.example.net/room-25,,LEGITIMATE,meeting_reminder
+EML-00224,hr-payroll@example-hr.example.net,example-hr.example.net,Action required: confirm your payroll details,"Dear Employee,
+
+To avoid delays in your salary, please confirm your payroll details and send your bank account number by reply. Immediate action is required.",,,PHISHING,fake_hr_request
+EML-00225,orders@exampleshop.example.com,exampleshop.example.com,Your order #12875 has shipped,"Hi Kabir,
+
+Thanks for your order. It shipped today and should arrive in 5 days. Track it at https://exampleshop.example.com/orders/12875.",https://exampleshop.example.com/orders/12875,receipt_12875.pdf,LEGITIMATE,shopping_confirmation
+EML-00226,no-reply@verify-examplebank.example.org,verify-examplebank.example.org,Account suspended - action required,"Dear Customer,
+
+Unusual activity was detected. Your account will be suspended within 24 hours unless you verify your account immediately: http://secure-login.invalid.test/account/verify?id=40162
+Enter your password to restore access.",http://secure-login.invalid.test/account/verify?id=40162,,PHISHING,fake_account_verification
+EML-00227,it-helpdesk@example-support.invalid.test,example-support.invalid.test,Your password expires today,"Dear User,
+
+Your password expires today. Update your password immediately to keep access: http://192.0.2.66/reset",http://192.0.2.66/reset,,PHISHING,fake_password_expiration
+EML-00228,registrar@example.org,example.org,Semester registration opens May 26,"Hello students,
+
+Registration for the next semester opens on May 15. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00229,hr-payroll@example-hr.example.net,example-hr.example.net,Action required: confirm your payroll details,"Dear Employee,
+
+To avoid delays in your salary, please confirm your payroll details and send your bank account number by reply. Immediate action is required.",,,PHISHING,fake_hr_request
+EML-00230,hr@example.com,example.com,Updated leave policy for 2026,"Hi all,
+
+The leave policy has been updated. You can read the details at https://hr.example.com/policies. No action is required.
+
+HR Team",https://hr.example.com/policies,,LEGITIMATE,hr_update
+EML-00231,maya@example.com,example.com,Sprint 5 status update,"Hi team,
+
+We finished 11 tasks this sprint and 3 carry over. Board: https://projects.example.com/board.
+
+Thanks!",https://projects.example.com/board,burndown.xlsx,LEGITIMATE,project_update
+EML-00232,orders@exampleshop.example.com,exampleshop.example.com,Your order #31567 has shipped,"Hi Liam,
+
+Thanks for your order. It shipped today and should arrive in 5 days. Track it at https://exampleshop.example.com/orders/31567.",https://exampleshop.example.com/orders/31567,receipt_31567.pdf,LEGITIMATE,shopping_confirmation
+EML-00233,news@example.net,example.net,This month in tech: password managers,"Hello readers,
+
+This month we cover data privacy and password managers. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00234,it-helpdesk@example-support.invalid.test,example-support.invalid.test,Your password expires today,"Dear User,
+
+Your password expires today. Update your password immediately to keep access: http://it-portal.update-login.example.net/password",http://it-portal.update-login.example.net/password,,PHISHING,fake_password_expiration
+EML-00235,news@example.net,example.net,This month in tech: password managers,"Hello readers,
+
+This month we cover data privacy and password managers. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00236,billing@invoice-center.example.net,invoice-center.example.net,Invoice #69609 overdue - payment failed,"Dear Sir/Madam,
+
+Your invoice is past due and payment failed. Open the attached invoice and settle the outstanding balance today.",,invoice_69609.html,PHISHING,fake_invoice
+EML-00237,orders@exampleshop.example.com,exampleshop.example.com,Your order #86619 has shipped,"Hi Noah,
+
+Thanks for your order. It shipped today and should arrive in 4 days. Track it at https://exampleshop.example.com/orders/86619.",https://exampleshop.example.com/orders/86619,,LEGITIMATE,shopping_confirmation
+EML-00238,ExampleBank Alerts <alerts@examplebank.example.com>,examplebank.example.com,Your January statement is ready,"Hello Emma,
+
+Your monthly statement is available in the ExampleBank app or at https://examplebank.example.com/statements. We will never ask for your password by email.",https://examplebank.example.com/statements,,LEGITIMATE,bank_notification
+EML-00239,news@example.net,example.net,This month in tech: open-source tools,"Hello readers,
+
+This month we cover safe browsing and AI in education. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00240,docs-share@example-docs.example.net,example-docs.example.net,Document shared with you,"Hi Kabir,
+
+A colleague shared the meeting notes with you. You can view them here: https://docs-share.example.net/view/49608",https://docs-share.example.net/view/49608,,PHISHING,subtle_document_share
+EML-00241,rewards@prize-center.invalid.test,prize-center.invalid.test,Congratulations! You have won a free gift!!!,"Dear Winner,
+
+You have won! Claim your prize now: http://claim-prize.example.net/15943
+Confirm your personal details and card number to receive it.",http://claim-prize.example.net/15943,,PHISHING,fake_prize
+EML-00242,orders@exampleshop.example.com,exampleshop.example.com,Your order #74569 has shipped,"Hi Priya,
+
+Thanks for your order. It shipped today and should arrive in 2 days. Track it at https://exampleshop.example.com/orders/74569.",https://exampleshop.example.com/orders/74569,,LEGITIMATE,shopping_confirmation
+EML-00243,noah@example.com,example.com,Sprint 15 status update,"Hi team,
+
+We finished 8 tasks this sprint and 4 carry over. Board: https://projects.example.com/board.
+
+Thanks!",https://projects.example.com/board,burndown.xlsx,LEGITIMATE,project_update
+EML-00244,noah@example.com,example.com,Sprint 4 status update,"Hi team,
+
+We finished 10 tasks this sprint and 4 carry over. Board: https://projects.example.com/board.
+
+Thanks!",https://projects.example.com/board,sprint_report.pdf,LEGITIMATE,project_update
+EML-00245,hr-payroll@example-hr.example.net,example-hr.example.net,Action required: confirm your payroll details,"Dear Employee,
+
+To avoid delays in your salary, please confirm your payroll details and send your bank account number by reply. Immediate action is required.",,,PHISHING,fake_hr_request
+EML-00246,docs-share@example-docs.example.net,example-docs.example.net,Document shared with you,"Hi Zoya,
+
+A colleague shared the meeting notes with you. You can view them here: https://docs-share.example.net/view/40947",https://docs-share.example.net/view/40947,,PHISHING,subtle_document_share
+EML-00247,hr-payroll@example-hr.example.net,example-hr.example.net,Action required: confirm your payroll details,"Dear Employee,
+
+To avoid delays in your salary, please confirm your payroll details and send your bank account number by reply. Immediate action is required.",,,PHISHING,fake_hr_request
+EML-00248,news@example.net,example.net,This month in tech: password managers,"Hello readers,
+
+This month we cover data privacy and cloud basics. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00249,billing@invoice-center.example.net,invoice-center.example.net,Invoice #69600 overdue - payment failed,"Dear Sir/Madam,
+
+Your invoice is past due and payment failed. Open the attached invoice and settle the outstanding balance today.",,Invoice_69600.pdf.exe,PHISHING,fake_invoice
+EML-00250,registrar@example.org,example.org,Semester registration opens January 26,"Hello students,
+
+Registration for the next semester opens on January 11. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00251,rewards@prize-center.invalid.test,prize-center.invalid.test,Congratulations! You have won a free gift!!!,"Dear Winner,
+
+You have won! Claim your prize now: http://claim-prize.example.net/84000
+Confirm your personal details and card number to receive it.",http://claim-prize.example.net/84000,,PHISHING,fake_prize
+EML-00252,projects@example-team.example.net,example-team.example.net,Updated project files,"Hello,
+
+Please see the updated project files attached and let me know your thoughts.",,files.zip,PHISHING,subtle_attachment
+EML-00253,calendar@example.net,example.net,Reminder: project sync on Tuesday at 5 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-22
+
+Agenda attached.",https://meet.example.net/room-22,,LEGITIMATE,meeting_reminder
+EML-00254,rewards@prize-center.invalid.test,prize-center.invalid.test,Congratulations! You have won a free gift!!!,"Dear Winner,
+
+You have won! Claim your prize now: http://claim-prize.example.net/27038
+Confirm your personal details and card number to receive it.",http://claim-prize.example.net/27038,,PHISHING,fake_prize
+EML-00255,priya@example.com,example.com,Sprint 1 status update,"Hi team,
+
+We finished 5 tasks this sprint and 1 carry over. Board: https://projects.example.com/board.
+
+Thanks!",https://projects.example.com/board,sprint_report.pdf,LEGITIMATE,project_update
+EML-00256,calendar@example.net,example.net,Reminder: project sync on Wednesday at 1 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-38
+
+Agenda attached.",https://meet.example.net/room-38,,LEGITIMATE,meeting_reminder
+EML-00257,rewards@prize-center.invalid.test,prize-center.invalid.test,Congratulations! You have won a free gift!!!,"Dear Winner,
+
+You have won! Claim your prize now: http://claim-prize.example.net/65176
+Confirm your personal details and card number to receive it.",http://claim-prize.example.net/65176,,PHISHING,fake_prize
+EML-00258,hr@example.com,example.com,Updated leave policy for 2026,"Hi all,
+
+The leave policy has been updated. You can read the details at https://hr.example.com/policies. No action is required.
+
+HR Team",https://hr.example.com/policies,,LEGITIMATE,hr_update
+EML-00259,hr@example.com,example.com,Updated leave policy for 2025,"Hi all,
+
+The leave policy has been updated. You can read the details at https://hr.example.com/policies. No action is required.
+
+HR Team",https://hr.example.com/policies,,LEGITIMATE,hr_update
+EML-00260,registrar@example.org,example.org,Semester registration opens September 10,"Hello students,
+
+Registration for the next semester opens on September 15. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00261,registrar@example.org,example.org,Semester registration opens January 16,"Hello students,
+
+Registration for the next semester opens on January 28. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00262,billing@invoice-center.example.net,invoice-center.example.net,Invoice #74260 overdue - payment failed,"Dear Sir/Madam,
+
+Your invoice is past due and payment failed. Open the attached invoice and settle the outstanding balance today.",,payment_74260.js,PHISHING,fake_invoice
+EML-00263,billing@invoice-center.example.net,invoice-center.example.net,Invoice #52219 overdue - payment failed,"Dear Sir/Madam,
+
+Your invoice is past due and payment failed. Open the attached invoice and settle the outstanding balance today.",,Invoice_52219.zip,PHISHING,fake_invoice
+EML-00264,delivery@parcel-track.example.net,parcel-track.example.net,Delivery failed - reschedule now,"Hello Customer,
+
+We could not deliver your parcel. Confirm your address and pay the small fee within 24 hours: http://short.example/Zq7Rt9",http://short.example/Zq7Rt9,,PHISHING,fake_delivery
+EML-00265,news@example.net,example.net,This month in tech: data privacy,"Hello readers,
+
+This month we cover open-source tools and open-source tools. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00266,projects@example-team.example.net,example-team.example.net,Updated project files,"Hello,
+
+Please see the updated project files attached and let me know your thoughts.",,notes.html,PHISHING,subtle_attachment
+EML-00267,billing@invoice-center.example.net,invoice-center.example.net,Invoice #95814 overdue - payment failed,"Dear Sir/Madam,
+
+Your invoice is past due and payment failed. Open the attached invoice and settle the outstanding balance today.",,Invoice_95814.zip,PHISHING,fake_invoice
+EML-00268,it-helpdesk@example-support.invalid.test,example-support.invalid.test,Your password expires today,"Dear User,
+
+Your password expires today. Update your password immediately to keep access: http://it-portal.update-login.example.net/password",http://it-portal.update-login.example.net/password,,PHISHING,fake_password_expiration
+EML-00269,billing@invoice-center.example.net,invoice-center.example.net,Invoice #50966 overdue - payment failed,"Dear Sir/Madam,
+
+Your invoice is past due and payment failed. Open the attached invoice and settle the outstanding balance today.",,payment_50966.js,PHISHING,fake_invoice
+EML-00270,delivery@parcel-track.example.net,parcel-track.example.net,Delivery failed - reschedule now,"Hello Customer,
+
+We could not deliver your parcel. Confirm your address and pay the small fee within 24 hours: http://short.example/k9Lm22",http://short.example/k9Lm22,,PHISHING,fake_delivery
+EML-00271,ExampleBank Alerts <alerts@examplebank.example.com>,examplebank.example.com,Your February statement is ready,"Hello Priya,
+
+Your monthly statement is available in the ExampleBank app or at https://examplebank.example.com/statements. We will never ask for your password by email.",https://examplebank.example.com/statements,,LEGITIMATE,bank_notification
+EML-00272,hr@example.com,example.com,Updated leave policy for 2027,"Hi all,
+
+The leave policy has been updated. You can read the details at https://hr.example.com/policies. No action is required.
+
+HR Team",https://hr.example.com/policies,,LEGITIMATE,hr_update
+EML-00273,ravi@example.com,example.com,Sprint 2 status update,"Hi team,
+
+We finished 12 tasks this sprint and 3 carry over. Board: https://projects.example.com/board.
+
+Thanks!",https://projects.example.com/board,burndown.xlsx,LEGITIMATE,project_update
+EML-00274,hr-payroll@example-hr.example.net,example-hr.example.net,Action required: confirm your payroll details,"Dear Employee,
+
+To avoid delays in your salary, please confirm your payroll details and send your bank account number by reply. Immediate action is required.",,,PHISHING,fake_hr_request
+EML-00275,no-reply@example.com,example.com,Your password was changed,"Hi Sara,
+
+The password for your account was changed on January 10. If this was you, no action is needed. If it was not you, contact the helpdesk through https://example.com/help.",https://example.com/help,,LEGITIMATE,password_change_confirmation
+EML-00276,news@example.net,example.net,This month in tech: password managers,"Hello readers,
+
+This month we cover open-source tools and open-source tools. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00277,docs-share@example-docs.example.net,example-docs.example.net,Document shared with you,"Hi Priya,
+
+A colleague shared the meeting notes with you. You can view them here: https://docs-share.example.net/view/39392",https://docs-share.example.net/view/39392,,PHISHING,subtle_document_share
+EML-00278,projects@example-team.example.net,example-team.example.net,Updated project files,"Hello,
+
+Please see the updated project files attached and let me know your thoughts.",,notes.html,PHISHING,subtle_attachment
+EML-00279,delivery@parcel-track.example.net,parcel-track.example.net,Delivery failed - reschedule now,"Hello Customer,
+
+We could not deliver your parcel. Confirm your address and pay the small fee within 24 hours: http://short.example/Zq7Rt3",http://short.example/Zq7Rt3,,PHISHING,fake_delivery
+EML-00280,registrar@example.org,example.org,Semester registration opens October 22,"Hello students,
+
+Registration for the next semester opens on October 27. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00281,registrar@example.org,example.org,Semester registration opens March 9,"Hello students,
+
+Registration for the next semester opens on March 23. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00282,news@example.net,example.net,This month in tech: cloud basics,"Hello readers,
+
+This month we cover password managers and safe browsing. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00283,no-reply@example.com,example.com,Your password was changed,"Hi Priya,
+
+The password for your account was changed on March 24. If this was you, no action is needed. If it was not you, contact the helpdesk through https://example.com/help.",https://example.com/help,,LEGITIMATE,password_change_confirmation
+EML-00284,registrar@example.org,example.org,Semester registration opens February 24,"Hello students,
+
+Registration for the next semester opens on February 17. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00285,ceo.office@example-corp.invalid.test,example-corp.invalid.test,Quick task - confidential,Are you at your desk? I am in a meeting and need you to buy gift cards for a client. Do this immediately and reply with the codes. Keep it confidential.,,,PHISHING,fake_executive_request
+EML-00286,zoya@example.com,example.com,Sprint 10 status update,"Hi team,
+
+We finished 8 tasks this sprint and 1 carry over. Board: https://projects.example.com/board.
+
+Thanks!",https://projects.example.com/board,,LEGITIMATE,project_update
+EML-00287,security-alert@account-check.invalid.test,account-check.invalid.test,Account suspended - action required,"Dear Customer,
+
+Unusual activity was detected. Your account will be suspended within 24 hours unless you verify your account immediately: http://examplebank.verify-login.example.net/signin
+Enter your password to restore access.",http://examplebank.verify-login.example.net/signin,,PHISHING,fake_account_verification
+EML-00288,no-reply@example.com,example.com,Your password was changed,"Hi Liam,
+
+The password for your account was changed on April 25. If this was you, no action is needed. If it was not you, contact the helpdesk through https://example.com/help.",https://example.com/help,,LEGITIMATE,password_change_confirmation
+EML-00289,news@example.net,example.net,This month in tech: data privacy,"Hello readers,
+
+This month we cover password managers and cloud basics. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00290,ExampleBank Alerts <alerts@examplebank.example.com>,examplebank.example.com,Your September statement is ready,"Hello Kabir,
+
+Your monthly statement is available in the ExampleBank app or at https://examplebank.example.com/statements. We will never ask for your password by email.",https://examplebank.example.com/statements,,LEGITIMATE,bank_notification
+EML-00291,it-helpdesk@example-support.invalid.test,example-support.invalid.test,Your password expires today,"Dear User,
+
+Your password expires today. Update your password immediately to keep access: http://203.0.113.155/reset",http://203.0.113.155/reset,,PHISHING,fake_password_expiration
+EML-00292,delivery@parcel-track.example.net,parcel-track.example.net,Delivery failed - reschedule now,"Hello Customer,
+
+We could not deliver your parcel. Confirm your address and pay the small fee within 24 hours: http://short.example/aB3xY2",http://short.example/aB3xY2,,PHISHING,fake_delivery
+EML-00293,orders@exampleshop.example.com,exampleshop.example.com,Your order #53007 has shipped,"Hi Priya,
+
+Thanks for your order. It shipped today and should arrive in 2 days. Track it at https://exampleshop.example.com/orders/53007.",https://exampleshop.example.com/orders/53007,receipt_53007.pdf,LEGITIMATE,shopping_confirmation
+EML-00294,sam@example.com,example.com,Sprint 13 status update,"Hi team,
+
+We finished 11 tasks this sprint and 2 carry over. Board: https://projects.example.com/board.
+
+Thanks!",https://projects.example.com/board,burndown.xlsx,LEGITIMATE,project_update
+EML-00295,news@example.net,example.net,This month in tech: password managers,"Hello readers,
+
+This month we cover data privacy and AI in education. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00296,no-reply@verify-examplebank.example.org,verify-examplebank.example.org,Account suspended - action required,"Dear Customer,
+
+Unusual activity was detected. Your account will be suspended within 24 hours unless you verify your account immediately: http://secure-login.invalid.test/account/verify?id=51033
+Enter your password to restore access.",http://secure-login.invalid.test/account/verify?id=51033,,PHISHING,fake_account_verification
+EML-00297,no-reply@example.com,example.com,Your password was changed,"Hi Liam,
+
+The password for your account was changed on February 13. If this was you, no action is needed. If it was not you, contact the helpdesk through https://example.com/help.",https://example.com/help,,LEGITIMATE,password_change_confirmation
+EML-00298,hr-payroll@example-hr.example.net,example-hr.example.net,Action required: confirm your payroll details,"Dear Employee,
+
+To avoid delays in your salary, please confirm your payroll details and send your bank account number by reply. Immediate action is required.",,,PHISHING,fake_hr_request
+EML-00299,docs-share@example-docs.example.net,example-docs.example.net,Document shared with you,"Hi Priya,
+
+A colleague shared the meeting notes with you. You can view them here: https://docs-share.example.net/view/57428",https://docs-share.example.net/view/57428,,PHISHING,subtle_document_share
+EML-00300,billing@invoice-center.example.net,invoice-center.example.net,Invoice #41891 overdue - payment failed,"Dear Sir/Madam,
+
+Your invoice is past due and payment failed. Open the attached invoice and settle the outstanding balance today.",,payment_41891.js,PHISHING,fake_invoice
+EML-00301,hr@example.com,example.com,Updated leave policy for 2026,"Hi all,
+
+The leave policy has been updated. You can read the details at https://hr.example.com/policies. No action is required.
+
+HR Team",https://hr.example.com/policies,,LEGITIMATE,hr_update
+EML-00302,calendar@example.net,example.net,Reminder: project sync on Tuesday at 1 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-22
+
+Agenda attached.",https://meet.example.net/room-22,agenda.docx,LEGITIMATE,meeting_reminder
+EML-00303,calendar@example.net,example.net,Reminder: project sync on Wednesday at 3 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-58
+
+Agenda attached.",https://meet.example.net/room-58,agenda.docx,LEGITIMATE,meeting_reminder
+EML-00304,maya@example.com,example.com,Sprint 4 status update,"Hi team,
+
+We finished 5 tasks this sprint and 3 carry over. Board: https://projects.example.com/board.
+
+Thanks!",https://projects.example.com/board,,LEGITIMATE,project_update
+EML-00305,rewards@prize-center.invalid.test,prize-center.invalid.test,Congratulations! You have won a free gift!!!,"Dear Winner,
+
+You have won! Claim your prize now: http://claim-prize.example.net/95918
+Confirm your personal details and card number to receive it.",http://claim-prize.example.net/95918,,PHISHING,fake_prize
+EML-00306,docs-share@example-docs.example.net,example-docs.example.net,Document shared with you,"Hi Emma,
+
+A colleague shared the meeting notes with you. You can view them here: https://docs-share.example.net/view/70811",https://docs-share.example.net/view/70811,,PHISHING,subtle_document_share
+EML-00307,ExampleBank Alerts <alerts@examplebank.example.com>,examplebank.example.com,Your October statement is ready,"Hello Kabir,
+
+Your monthly statement is available in the ExampleBank app or at https://examplebank.example.com/statements. We will never ask for your password by email.",https://examplebank.example.com/statements,,LEGITIMATE,bank_notification
+EML-00308,news@example.net,example.net,This month in tech: AI in education,"Hello readers,
+
+This month we cover cloud basics and safe browsing. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00309,docs-share@example-docs.example.net,example-docs.example.net,Document shared with you,"Hi Kabir,
+
+A colleague shared the meeting notes with you. You can view them here: https://docs-share.example.net/view/67961",https://docs-share.example.net/view/67961,,PHISHING,subtle_document_share
+EML-00310,delivery@parcel-track.example.net,parcel-track.example.net,Delivery failed - reschedule now,"Hello Customer,
+
+We could not deliver your parcel. Confirm your address and pay the small fee within 24 hours: http://short.example/Zq7Rt0",http://short.example/Zq7Rt0,,PHISHING,fake_delivery
+EML-00311,billing@invoice-center.example.net,invoice-center.example.net,Invoice #50685 overdue - payment failed,"Dear Sir/Madam,
+
+Your invoice is past due and payment failed. Open the attached invoice and settle the outstanding balance today.",,payment_50685.js,PHISHING,fake_invoice
+EML-00312,registrar@example.org,example.org,Semester registration opens June 27,"Hello students,
+
+Registration for the next semester opens on June 10. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00313,billing@invoice-center.example.net,invoice-center.example.net,Invoice #90610 overdue - payment failed,"Dear Sir/Madam,
+
+Your invoice is past due and payment failed. Open the attached invoice and settle the outstanding balance today.",,payment_90610.js,PHISHING,fake_invoice
+EML-00314,registrar@example.org,example.org,Semester registration opens August 26,"Hello students,
+
+Registration for the next semester opens on August 19. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00315,news@example.net,example.net,This month in tech: open-source tools,"Hello readers,
+
+This month we cover data privacy and open-source tools. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00316,no-reply@verify-examplebank.example.org,verify-examplebank.example.org,URGENT: Verify Your Account Immediately,"Dear Customer,
+
+Unusual activity was detected. Your account will be suspended within 24 hours unless you verify your account immediately: http://secure-login.invalid.test/account/verify?id=55015
+Enter your password to restore access.",http://secure-login.invalid.test/account/verify?id=55015,,PHISHING,fake_account_verification
+EML-00317,aarav@example.com,example.com,Sprint 8 status update,"Hi team,
+
+We finished 10 tasks this sprint and 4 carry over. Board: https://projects.example.com/board.
+
+Thanks!",https://projects.example.com/board,burndown.xlsx,LEGITIMATE,project_update
+EML-00318,zoya@example.com,example.com,Sprint 12 status update,"Hi team,
+
+We finished 7 tasks this sprint and 4 carry over. Board: https://projects.example.com/board.
+
+Thanks!",https://projects.example.com/board,sprint_report.pdf,LEGITIMATE,project_update
+EML-00319,registrar@example.org,example.org,Semester registration opens June 3,"Hello students,
+
+Registration for the next semester opens on June 11. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00320,ceo.office@example-corp.invalid.test,example-corp.invalid.test,Quick task - confidential,Are you at your desk? I am in a meeting and need you to buy gift cards for a client. Do this immediately and reply with the codes. Keep it confidential.,,,PHISHING,fake_executive_request
+EML-00321,rewards@prize-center.invalid.test,prize-center.invalid.test,Congratulations! You have won a free gift!!!,"Dear Winner,
+
+You have won! Claim your prize now: http://claim-prize.example.net/53694
+Confirm your personal details and card number to receive it.",http://claim-prize.example.net/53694,,PHISHING,fake_prize
+EML-00322,rewards@prize-center.invalid.test,prize-center.invalid.test,Congratulations! You have won a free gift!!!,"Dear Winner,
+
+You have won! Claim your prize now: http://claim-prize.example.net/55851
+Confirm your personal details and card number to receive it.",http://claim-prize.example.net/55851,,PHISHING,fake_prize
+EML-00323,ceo.office@example-corp.invalid.test,example-corp.invalid.test,Quick task - confidential,Are you at your desk? I am in a meeting and need you to buy gift cards for a client. Do this immediately and reply with the codes. Keep it confidential.,,,PHISHING,fake_executive_request
+EML-00324,billing@invoice-center.example.net,invoice-center.example.net,Invoice #50577 overdue - payment failed,"Dear Sir/Madam,
+
+Your invoice is past due and payment failed. Open the attached invoice and settle the outstanding balance today.",,payment_50577.js,PHISHING,fake_invoice
+EML-00325,news@example.net,example.net,This month in tech: safe browsing,"Hello readers,
+
+This month we cover AI in education and AI in education. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00326,hr@example.com,example.com,Updated leave policy for 2026,"Hi all,
+
+The leave policy has been updated. You can read the details at https://hr.example.com/policies. No action is required.
+
+HR Team",https://hr.example.com/policies,,LEGITIMATE,hr_update
+EML-00327,registrar@example.org,example.org,Semester registration opens June 10,"Hello students,
+
+Registration for the next semester opens on June 6. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00328,news@example.net,example.net,This month in tech: data privacy,"Hello readers,
+
+This month we cover safe browsing and safe browsing. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00329,priya@example.com,example.com,Sprint 10 status update,"Hi team,
+
+We finished 4 tasks this sprint and 1 carry over. Board: https://projects.example.com/board.
+
+Thanks!",https://projects.example.com/board,burndown.xlsx,LEGITIMATE,project_update
+EML-00330,rewards@prize-center.invalid.test,prize-center.invalid.test,Congratulations! You have won a free gift!!!,"Dear Winner,
+
+You have won! Claim your prize now: http://claim-prize.example.net/88282
+Confirm your personal details and card number to receive it.",http://claim-prize.example.net/88282,,PHISHING,fake_prize
+EML-00331,rewards@prize-center.invalid.test,prize-center.invalid.test,Congratulations! You have won a free gift!!!,"Dear Winner,
+
+You have won! Claim your prize now: http://claim-prize.example.net/33703
+Confirm your personal details and card number to receive it.",http://claim-prize.example.net/33703,,PHISHING,fake_prize
+EML-00332,sara@example.com,example.com,Sprint 15 status update,"Hi team,
+
+We finished 3 tasks this sprint and 4 carry over. Board: https://projects.example.com/board.
+
+Thanks!",https://projects.example.com/board,sprint_report.pdf,LEGITIMATE,project_update
+EML-00333,calendar@example.net,example.net,Reminder: project sync on Friday at 3 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-29
+
+Agenda attached.",https://meet.example.net/room-29,agenda.docx,LEGITIMATE,meeting_reminder
+EML-00334,calendar@example.net,example.net,Reminder: project sync on Tuesday at 3 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-35
+
+Agenda attached.",https://meet.example.net/room-35,agenda.pdf,LEGITIMATE,meeting_reminder
+EML-00335,calendar@example.net,example.net,Reminder: project sync on Friday at 4 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-24
+
+Agenda attached.",https://meet.example.net/room-24,agenda.pdf,LEGITIMATE,meeting_reminder
+EML-00336,no-reply@example.com,example.com,Your password was changed,"Hi Ravi,
+
+The password for your account was changed on September 14. If this was you, no action is needed. If it was not you, contact the helpdesk through https://example.com/help.",https://example.com/help,,LEGITIMATE,password_change_confirmation
+EML-00337,calendar@example.net,example.net,Reminder: project sync on Friday at 2 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-52
+
+Agenda attached.",https://meet.example.net/room-52,agenda.pdf,LEGITIMATE,meeting_reminder
+EML-00338,docs-share@example-docs.example.net,example-docs.example.net,Document shared with you,"Hi Ravi,
+
+A colleague shared the meeting notes with you. You can view them here: https://docs-share.example.net/view/58655",https://docs-share.example.net/view/58655,,PHISHING,subtle_document_share
+EML-00339,hr@example.com,example.com,Urgent: Submit your documents today,"Hi Sam,
+
+Please submit your signed onboarding documents today so payroll can be processed on time. Upload them at https://hr.example.com/documents.
+
+HR Team",https://hr.example.com/documents,,LEGITIMATE,hr_update_urgent
+EML-00340,projects@example-team.example.net,example-team.example.net,Updated project files,"Hello,
+
+Please see the updated project files attached and let me know your thoughts.",,files.zip,PHISHING,subtle_attachment
+EML-00341,hr@example.com,example.com,Updated leave policy for 2025,"Hi all,
+
+The leave policy has been updated. You can read the details at https://hr.example.com/policies. No action is required.
+
+HR Team",https://hr.example.com/policies,,LEGITIMATE,hr_update
+EML-00342,news@example.net,example.net,This month in tech: password managers,"Hello readers,
+
+This month we cover data privacy and password managers. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00343,hr-payroll@example-hr.example.net,example-hr.example.net,Action required: confirm your payroll details,"Dear Employee,
+
+To avoid delays in your salary, please confirm your payroll details and send your bank account number by reply. Immediate action is required.",,,PHISHING,fake_hr_request
+EML-00344,billing@invoice-center.example.net,invoice-center.example.net,Invoice #59140 overdue - payment failed,"Dear Sir/Madam,
+
+Your invoice is past due and payment failed. Open the attached invoice and settle the outstanding balance today.",,Invoice_59140.zip,PHISHING,fake_invoice
+EML-00345,billing@invoice-center.example.net,invoice-center.example.net,Invoice #95191 overdue - payment failed,"Dear Sir/Madam,
+
+Your invoice is past due and payment failed. Open the attached invoice and settle the outstanding balance today.",,invoice_95191.html,PHISHING,fake_invoice
+EML-00346,aarav@example.com,example.com,Sprint 10 status update,"Hi team,
+
+We finished 10 tasks this sprint and 2 carry over. Board: https://projects.example.com/board.
+
+Thanks!",https://projects.example.com/board,burndown.xlsx,LEGITIMATE,project_update
+EML-00347,registrar@example.org,example.org,Semester registration opens February 1,"Hello students,
+
+Registration for the next semester opens on February 9. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00348,rewards@prize-center.invalid.test,prize-center.invalid.test,Congratulations! You have won a free gift!!!,"Dear Winner,
+
+You have won! Claim your prize now: http://claim-prize.example.net/81932
+Confirm your personal details and card number to receive it.",http://claim-prize.example.net/81932,,PHISHING,fake_prize
+EML-00349,no-reply@example.com,example.com,Your password was changed,"Hi Priya,
+
+The password for your account was changed on May 8. If this was you, no action is needed. If it was not you, contact the helpdesk through https://example.com/help.",https://example.com/help,,LEGITIMATE,password_change_confirmation
+EML-00350,support@examplebank-secure.example.net,examplebank-secure.example.net,URGENT: Verify Your Account Immediately,"Dear Customer,
+
+Unusual activity was detected. Your account will be suspended within 24 hours unless you verify your account immediately: http://examplebank.verify-login.example.net/signin
+Enter your password to restore access.",http://examplebank.verify-login.example.net/signin,,PHISHING,fake_account_verification
+EML-00351,docs-share@example-docs.example.net,example-docs.example.net,Document shared with you,"Hi Ravi,
+
+A colleague shared the meeting notes with you. You can view them here: https://docs-share.example.net/view/88215",https://docs-share.example.net/view/88215,,PHISHING,subtle_document_share
+EML-00352,projects@example-team.example.net,example-team.example.net,Updated project files,"Hello,
+
+Please see the updated project files attached and let me know your thoughts.",,files.zip,PHISHING,subtle_attachment
+EML-00353,orders@exampleshop.example.com,exampleshop.example.com,Your order #66261 has shipped,"Hi Aarav,
+
+Thanks for your order. It shipped today and should arrive in 6 days. Track it at https://exampleshop.example.com/orders/66261.",https://exampleshop.example.com/orders/66261,receipt_66261.pdf,LEGITIMATE,shopping_confirmation
+EML-00354,ceo.office@example-corp.invalid.test,example-corp.invalid.test,Quick task - confidential,Are you at your desk? I am in a meeting and need you to buy gift cards for a client. Do this immediately and reply with the codes. Keep it confidential.,,,PHISHING,fake_executive_request
+EML-00355,billing@invoice-center.example.net,invoice-center.example.net,Invoice #78614 overdue - payment failed,"Dear Sir/Madam,
+
+Your invoice is past due and payment failed. Open the attached invoice and settle the outstanding balance today.",,invoice_78614.html,PHISHING,fake_invoice
+EML-00356,projects@example-team.example.net,example-team.example.net,Updated project files,"Hello,
+
+Please see the updated project files attached and let me know your thoughts.",,files.zip,PHISHING,subtle_attachment
+EML-00357,docs-share@example-docs.example.net,example-docs.example.net,Document shared with you,"Hi Kabir,
+
+A colleague shared the meeting notes with you. You can view them here: https://docs-share.example.net/view/15706",https://docs-share.example.net/view/15706,,PHISHING,subtle_document_share
+EML-00358,hr-payroll@example-hr.example.net,example-hr.example.net,Action required: confirm your payroll details,"Dear Employee,
+
+To avoid delays in your salary, please confirm your payroll details and send your bank account number by reply. Immediate action is required.",,,PHISHING,fake_hr_request
+EML-00359,ExampleBank Support <alerts@verify-mail.invalid.test>,verify-mail.invalid.test,Security alert: confirm your identity,"Dear Customer,
+
+Unusual activity was detected. Your account will be suspended within 24 hours unless you verify your account immediately: http://secure-login.invalid.test/account/verify?id=41604
+Enter your password to restore access.",http://secure-login.invalid.test/account/verify?id=41604,,PHISHING,fake_account_verification
+EML-00360,news@example.net,example.net,This month in tech: safe browsing,"Hello readers,
+
+This month we cover password managers and cloud basics. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00361,kabir@example.com,example.com,Sprint 15 status update,"Hi team,
+
+We finished 10 tasks this sprint and 2 carry over. Board: https://projects.example.com/board.
+
+Thanks!",https://projects.example.com/board,,LEGITIMATE,project_update
+EML-00362,docs-share@example-docs.example.net,example-docs.example.net,Document shared with you,"Hi Liam,
+
+A colleague shared the meeting notes with you. You can view them here: https://docs-share.example.net/view/14847",https://docs-share.example.net/view/14847,,PHISHING,subtle_document_share
+EML-00363,it-helpdesk@example-support.invalid.test,example-support.invalid.test,Your password expires today,"Dear User,
+
+Your password expires today. Update your password immediately to keep access: http://it-portal.update-login.example.net/password",http://it-portal.update-login.example.net/password,,PHISHING,fake_password_expiration
+EML-00364,ExampleBank Alerts <alerts@examplebank.example.com>,examplebank.example.com,Your May statement is ready,"Hello Aarav,
+
+Your monthly statement is available in the ExampleBank app or at https://examplebank.example.com/statements. We will never ask for your password by email.",https://examplebank.example.com/statements,,LEGITIMATE,bank_notification
+EML-00365,calendar@example.net,example.net,Reminder: project sync on Wednesday at 1 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-19
+
+Agenda attached.",https://meet.example.net/room-19,agenda.docx,LEGITIMATE,meeting_reminder
+EML-00366,billing@invoice-center.example.net,invoice-center.example.net,Invoice #58237 overdue - payment failed,"Dear Sir/Madam,
+
+Your invoice is past due and payment failed. Open the attached invoice and settle the outstanding balance today.",,payment_58237.js,PHISHING,fake_invoice
+EML-00367,ExampleBank Alerts <alerts@examplebank.example.com>,examplebank.example.com,Your July statement is ready,"Hello Zoya,
+
+Your monthly statement is available in the ExampleBank app or at https://examplebank.example.com/statements. We will never ask for your password by email.",https://examplebank.example.com/statements,,LEGITIMATE,bank_notification
+EML-00368,ExampleBank Alerts <alerts@examplebank.example.com>,examplebank.example.com,Your August statement is ready,"Hello Zoya,
+
+Your monthly statement is available in the ExampleBank app or at https://examplebank.example.com/statements. We will never ask for your password by email.",https://examplebank.example.com/statements,,LEGITIMATE,bank_notification
+EML-00369,orders@exampleshop.example.com,exampleshop.example.com,Your order #20828 has shipped,"Hi Sara,
+
+Thanks for your order. It shipped today and should arrive in 5 days. Track it at https://exampleshop.example.com/orders/20828.",https://exampleshop.example.com/orders/20828,,LEGITIMATE,shopping_confirmation
+EML-00370,rewards@prize-center.invalid.test,prize-center.invalid.test,Congratulations! You have won a free gift!!!,"Dear Winner,
+
+You have won! Claim your prize now: http://claim-prize.example.net/81496
+Confirm your personal details and card number to receive it.",http://claim-prize.example.net/81496,,PHISHING,fake_prize
+EML-00371,billing@invoice-center.example.net,invoice-center.example.net,Invoice #20494 overdue - payment failed,"Dear Sir/Madam,
+
+Your invoice is past due and payment failed. Open the attached invoice and settle the outstanding balance today.",,invoice_20494.html,PHISHING,fake_invoice
+EML-00372,orders@exampleshop.example.com,exampleshop.example.com,Your order #68447 has shipped,"Hi Emma,
+
+Thanks for your order. It shipped today and should arrive in 5 days. Track it at https://exampleshop.example.com/orders/68447.",https://exampleshop.example.com/orders/68447,,LEGITIMATE,shopping_confirmation
+EML-00373,news@example.net,example.net,This month in tech: data privacy,"Hello readers,
+
+This month we cover password managers and AI in education. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00374,news@example.net,example.net,This month in tech: open-source tools,"Hello readers,
+
+This month we cover data privacy and cloud basics. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00375,registrar@example.org,example.org,Semester registration opens February 22,"Hello students,
+
+Registration for the next semester opens on February 21. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00376,projects@example-team.example.net,example-team.example.net,Updated project files,"Hello,
+
+Please see the updated project files attached and let me know your thoughts.",,files.zip,PHISHING,subtle_attachment
+EML-00377,emma@example.com,example.com,Sprint 15 status update,"Hi team,
+
+We finished 3 tasks this sprint and 2 carry over. Board: https://projects.example.com/board.
+
+Thanks!",https://projects.example.com/board,,LEGITIMATE,project_update
+EML-00378,hr-payroll@example-hr.example.net,example-hr.example.net,Action required: confirm your payroll details,"Dear Employee,
+
+To avoid delays in your salary, please confirm your payroll details and send your bank account number by reply. Immediate action is required.",,,PHISHING,fake_hr_request
+EML-00379,support@examplebank-secure.example.net,examplebank-secure.example.net,Account suspended - action required,"Dear Customer,
+
+Unusual activity was detected. Your account will be suspended within 24 hours unless you verify your account immediately: http://examplebank.verify-login.example.net/signin
+Enter your password to restore access.",http://examplebank.verify-login.example.net/signin,,PHISHING,fake_account_verification
+EML-00380,ravi@example.com,example.com,Sprint 12 status update,"Hi team,
+
+We finished 9 tasks this sprint and 3 carry over. Board: https://projects.example.com/board.
+
+Thanks!",https://projects.example.com/board,burndown.xlsx,LEGITIMATE,project_update
+EML-00381,billing@invoice-center.example.net,invoice-center.example.net,Invoice #13396 overdue - payment failed,"Dear Sir/Madam,
+
+Your invoice is past due and payment failed. Open the attached invoice and settle the outstanding balance today.",,Invoice_13396.zip,PHISHING,fake_invoice
+EML-00382,no-reply@example.com,example.com,Your password was changed,"Hi Ravi,
+
+The password for your account was changed on February 9. If this was you, no action is needed. If it was not you, contact the helpdesk through https://example.com/help.",https://example.com/help,,LEGITIMATE,password_change_confirmation
+EML-00383,ExampleBank Alerts <alerts@examplebank.example.com>,examplebank.example.com,Your April statement is ready,"Hello Emma,
+
+Your monthly statement is available in the ExampleBank app or at https://examplebank.example.com/statements. We will never ask for your password by email.",https://examplebank.example.com/statements,,LEGITIMATE,bank_notification
+EML-00384,docs-share@example-docs.example.net,example-docs.example.net,Document shared with you,"Hi Priya,
+
+A colleague shared the meeting notes with you. You can view them here: https://docs-share.example.net/view/36237",https://docs-share.example.net/view/36237,,PHISHING,subtle_document_share
+EML-00385,billing@invoice-center.example.net,invoice-center.example.net,Invoice #69250 overdue - payment failed,"Dear Sir/Madam,
+
+Your invoice is past due and payment failed. Open the attached invoice and settle the outstanding balance today.",,Invoice_69250.zip,PHISHING,fake_invoice
+EML-00386,ExampleBank Alerts <alerts@examplebank.example.com>,examplebank.example.com,Your February statement is ready,"Hello Kabir,
+
+Your monthly statement is available in the ExampleBank app or at https://examplebank.example.com/statements. We will never ask for your password by email.",https://examplebank.example.com/statements,,LEGITIMATE,bank_notification
+EML-00387,news@example.net,example.net,This month in tech: AI in education,"Hello readers,
+
+This month we cover cloud basics and AI in education. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00388,projects@example-team.example.net,example-team.example.net,Updated project files,"Hello,
+
+Please see the updated project files attached and let me know your thoughts.",,notes.html,PHISHING,subtle_attachment
+EML-00389,sara@example.com,example.com,Sprint 6 status update,"Hi team,
+
+We finished 8 tasks this sprint and 2 carry over. Board: https://projects.example.com/board.
+
+Thanks!",https://projects.example.com/board,,LEGITIMATE,project_update
+EML-00390,maya@example.com,example.com,Sprint 16 status update,"Hi team,
+
+We finished 3 tasks this sprint and 3 carry over. Board: https://projects.example.com/board.
+
+Thanks!",https://projects.example.com/board,burndown.xlsx,LEGITIMATE,project_update
+EML-00391,ExampleBank Alerts <alerts@examplebank.example.com>,examplebank.example.com,Your September statement is ready,"Hello Sam,
+
+Your monthly statement is available in the ExampleBank app or at https://examplebank.example.com/statements. We will never ask for your password by email.",https://examplebank.example.com/statements,,LEGITIMATE,bank_notification
+EML-00392,hr@example.com,example.com,Urgent: Submit your documents today,"Hi Noah,
+
+Please submit your signed onboarding documents today so payroll can be processed on time. Upload them at https://hr.example.com/documents.
+
+HR Team",https://hr.example.com/documents,,LEGITIMATE,hr_update_urgent
+EML-00393,ExampleBank Alerts <alerts@examplebank.example.com>,examplebank.example.com,Your September statement is ready,"Hello Noah,
+
+Your monthly statement is available in the ExampleBank app or at https://examplebank.example.com/statements. We will never ask for your password by email.",https://examplebank.example.com/statements,,LEGITIMATE,bank_notification
+EML-00394,hr@example.com,example.com,Urgent: Submit your documents today,"Hi Zoya,
+
+Please submit your signed onboarding documents today so payroll can be processed on time. Upload them at https://hr.example.com/documents.
+
+HR Team",https://hr.example.com/documents,,LEGITIMATE,hr_update_urgent
+EML-00395,ExampleBank Alerts <alerts@examplebank.example.com>,examplebank.example.com,Your August statement is ready,"Hello Kabir,
+
+Your monthly statement is available in the ExampleBank app or at https://examplebank.example.com/statements. We will never ask for your password by email.",https://examplebank.example.com/statements,,LEGITIMATE,bank_notification
+EML-00396,ravi@example.com,example.com,Sprint 19 status update,"Hi team,
+
+We finished 5 tasks this sprint and 2 carry over. Board: https://projects.example.com/board.
+
+Thanks!",https://projects.example.com/board,sprint_report.pdf,LEGITIMATE,project_update
+EML-00397,registrar@example.org,example.org,Semester registration opens February 17,"Hello students,
+
+Registration for the next semester opens on February 5. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00398,rewards@prize-center.invalid.test,prize-center.invalid.test,Congratulations! You have won a free gift!!!,"Dear Winner,
+
+You have won! Claim your prize now: http://claim-prize.example.net/52291
+Confirm your personal details and card number to receive it.",http://claim-prize.example.net/52291,,PHISHING,fake_prize
+EML-00399,calendar@example.net,example.net,Reminder: project sync on Friday at 3 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-23
+
+Agenda attached.",https://meet.example.net/room-23,,LEGITIMATE,meeting_reminder
+EML-00400,projects@example-team.example.net,example-team.example.net,Updated project files,"Hello,
+
+Please see the updated project files attached and let me know your thoughts.",,notes.html,PHISHING,subtle_attachment
+EML-00401,delivery@parcel-track.example.net,parcel-track.example.net,Delivery failed - reschedule now,"Hello Customer,
+
+We could not deliver your parcel. Confirm your address and pay the small fee within 24 hours: http://short.example/Zq7Rt8",http://short.example/Zq7Rt8,,PHISHING,fake_delivery
+EML-00402,rewards@prize-center.invalid.test,prize-center.invalid.test,Congratulations! You have won a free gift!!!,"Dear Winner,
+
+You have won! Claim your prize now: http://claim-prize.example.net/87569
+Confirm your personal details and card number to receive it.",http://claim-prize.example.net/87569,,PHISHING,fake_prize
+EML-00403,sam@example.com,example.com,Sprint 20 status update,"Hi team,
+
+We finished 12 tasks this sprint and 3 carry over. Board: https://projects.example.com/board.
+
+Thanks!",https://projects.example.com/board,burndown.xlsx,LEGITIMATE,project_update
+EML-00404,security-alert@account-check.invalid.test,account-check.invalid.test,Account suspended - action required,"Dear Customer,
+
+Unusual activity was detected. Your account will be suspended within 24 hours unless you verify your account immediately: http://secure-login.invalid.test/account/verify?id=94076
+Enter your password to restore access.",http://secure-login.invalid.test/account/verify?id=94076,,PHISHING,fake_account_verification
+EML-00405,no-reply@example.com,example.com,Your password was changed,"Hi Emma,
+
+The password for your account was changed on January 16. If this was you, no action is needed. If it was not you, contact the helpdesk through https://example.com/help.",https://example.com/help,,LEGITIMATE,password_change_confirmation
+EML-00406,orders@exampleshop.example.com,exampleshop.example.com,Your order #94136 has shipped,"Hi Liam,
+
+Thanks for your order. It shipped today and should arrive in 5 days. Track it at https://exampleshop.example.com/orders/94136.",https://exampleshop.example.com/orders/94136,,LEGITIMATE,shopping_confirmation
+EML-00407,no-reply@example.com,example.com,Your password was changed,"Hi Liam,
+
+The password for your account was changed on August 3. If this was you, no action is needed. If it was not you, contact the helpdesk through https://example.com/help.",https://example.com/help,,LEGITIMATE,password_change_confirmation
+EML-00408,isha@example.com,example.com,Sprint 14 status update,"Hi team,
+
+We finished 10 tasks this sprint and 4 carry over. Board: https://projects.example.com/board.
+
+Thanks!",https://projects.example.com/board,,LEGITIMATE,project_update
+EML-00409,rewards@prize-center.invalid.test,prize-center.invalid.test,Congratulations! You have won a free gift!!!,"Dear Winner,
+
+You have won! Claim your prize now: http://claim-prize.example.net/50970
+Confirm your personal details and card number to receive it.",http://claim-prize.example.net/50970,,PHISHING,fake_prize
+EML-00410,news@example.net,example.net,This month in tech: AI in education,"Hello readers,
+
+This month we cover cloud basics and data privacy. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00411,hr-payroll@example-hr.example.net,example-hr.example.net,Action required: confirm your payroll details,"Dear Employee,
+
+To avoid delays in your salary, please confirm your payroll details and send your bank account number by reply. Immediate action is required.",,,PHISHING,fake_hr_request
+EML-00412,hr@example.com,example.com,Urgent: Submit your documents today,"Hi Isha,
+
+Please submit your signed onboarding documents today so payroll can be processed on time. Upload them at https://hr.example.com/documents.
+
+HR Team",https://hr.example.com/documents,,LEGITIMATE,hr_update_urgent
+EML-00413,docs-share@example-docs.example.net,example-docs.example.net,Document shared with you,"Hi Sam,
+
+A colleague shared the meeting notes with you. You can view them here: https://docs-share.example.net/view/42495",https://docs-share.example.net/view/42495,,PHISHING,subtle_document_share
+EML-00414,delivery@parcel-track.example.net,parcel-track.example.net,Delivery failed - reschedule now,"Hello Customer,
+
+We could not deliver your parcel. Confirm your address and pay the small fee within 24 hours: http://short.example/k9Lm29",http://short.example/k9Lm29,,PHISHING,fake_delivery
+EML-00415,rewards@prize-center.invalid.test,prize-center.invalid.test,Congratulations! You have won a free gift!!!,"Dear Winner,
+
+You have won! Claim your prize now: http://claim-prize.example.net/52917
+Confirm your personal details and card number to receive it.",http://claim-prize.example.net/52917,,PHISHING,fake_prize
+EML-00416,news@example.net,example.net,This month in tech: safe browsing,"Hello readers,
+
+This month we cover safe browsing and data privacy. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00417,ExampleBank Alerts <alerts@examplebank.example.com>,examplebank.example.com,Your August statement is ready,"Hello Liam,
+
+Your monthly statement is available in the ExampleBank app or at https://examplebank.example.com/statements. We will never ask for your password by email.",https://examplebank.example.com/statements,,LEGITIMATE,bank_notification
+EML-00418,hr@example.com,example.com,Updated leave policy for 2027,"Hi all,
+
+The leave policy has been updated. You can read the details at https://hr.example.com/policies. No action is required.
+
+HR Team",https://hr.example.com/policies,,LEGITIMATE,hr_update
+EML-00419,calendar@example.net,example.net,Reminder: project sync on Friday at 3 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-14
+
+Agenda attached.",https://meet.example.net/room-14,,LEGITIMATE,meeting_reminder
+EML-00420,docs-share@example-docs.example.net,example-docs.example.net,Document shared with you,"Hi Kabir,
+
+A colleague shared the meeting notes with you. You can view them here: https://docs-share.example.net/view/88317",https://docs-share.example.net/view/88317,,PHISHING,subtle_document_share
+EML-00421,orders@exampleshop.example.com,exampleshop.example.com,Your order #80345 has shipped,"Hi Aarav,
+
+Thanks for your order. It shipped today and should arrive in 2 days. Track it at https://exampleshop.example.com/orders/80345.",https://exampleshop.example.com/orders/80345,receipt_80345.pdf,LEGITIMATE,shopping_confirmation
+EML-00422,delivery@parcel-track.example.net,parcel-track.example.net,Delivery failed - reschedule now,"Hello Customer,
+
+We could not deliver your parcel. Confirm your address and pay the small fee within 24 hours: http://short.example/Zq7Rt5",http://short.example/Zq7Rt5,,PHISHING,fake_delivery
+EML-00423,news@example.net,example.net,This month in tech: password managers,"Hello readers,
+
+This month we cover data privacy and password managers. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00424,calendar@example.net,example.net,Reminder: project sync on Friday at 3 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-24
+
+Agenda attached.",https://meet.example.net/room-24,,LEGITIMATE,meeting_reminder
+EML-00425,docs-share@example-docs.example.net,example-docs.example.net,Document shared with you,"Hi Liam,
+
+A colleague shared the meeting notes with you. You can view them here: https://docs-share.example.net/view/82070",https://docs-share.example.net/view/82070,,PHISHING,subtle_document_share
+EML-00426,hr@example.com,example.com,Urgent: Submit your documents today,"Hi Priya,
+
+Please submit your signed onboarding documents today so payroll can be processed on time. Upload them at https://hr.example.com/documents.
+
+HR Team",https://hr.example.com/documents,,LEGITIMATE,hr_update_urgent
+EML-00427,hr-payroll@example-hr.example.net,example-hr.example.net,Action required: confirm your payroll details,"Dear Employee,
+
+To avoid delays in your salary, please confirm your payroll details and send your bank account number by reply. Immediate action is required.",,,PHISHING,fake_hr_request
+EML-00428,news@example.net,example.net,This month in tech: safe browsing,"Hello readers,
+
+This month we cover safe browsing and open-source tools. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00429,registrar@example.org,example.org,Semester registration opens January 2,"Hello students,
+
+Registration for the next semester opens on January 5. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00430,ExampleBank Alerts <alerts@examplebank.example.com>,examplebank.example.com,Your September statement is ready,"Hello Isha,
+
+Your monthly statement is available in the ExampleBank app or at https://examplebank.example.com/statements. We will never ask for your password by email.",https://examplebank.example.com/statements,,LEGITIMATE,bank_notification
+EML-00431,projects@example-team.example.net,example-team.example.net,Updated project files,"Hello,
+
+Please see the updated project files attached and let me know your thoughts.",,files.zip,PHISHING,subtle_attachment
+EML-00432,hr-payroll@example-hr.example.net,example-hr.example.net,Action required: confirm your payroll details,"Dear Employee,
+
+To avoid delays in your salary, please confirm your payroll details and send your bank account number by reply. Immediate action is required.",,,PHISHING,fake_hr_request
+EML-00433,delivery@parcel-track.example.net,parcel-track.example.net,Delivery failed - reschedule now,"Hello Customer,
+
+We could not deliver your parcel. Confirm your address and pay the small fee within 24 hours: http://short.example/Zq7Rt5",http://short.example/Zq7Rt5,,PHISHING,fake_delivery
+EML-00434,ExampleBank Alerts <alerts@examplebank.example.com>,examplebank.example.com,Your October statement is ready,"Hello Liam,
+
+Your monthly statement is available in the ExampleBank app or at https://examplebank.example.com/statements. We will never ask for your password by email.",https://examplebank.example.com/statements,,LEGITIMATE,bank_notification
+EML-00435,registrar@example.org,example.org,Semester registration opens June 11,"Hello students,
+
+Registration for the next semester opens on June 22. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00436,ceo.office@example-corp.invalid.test,example-corp.invalid.test,Quick task - confidential,Are you at your desk? I am in a meeting and need you to buy gift cards for a client. Do this immediately and reply with the codes. Keep it confidential.,,,PHISHING,fake_executive_request
+EML-00437,registrar@example.org,example.org,Semester registration opens October 16,"Hello students,
+
+Registration for the next semester opens on October 9. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00438,calendar@example.net,example.net,Reminder: project sync on Monday at 5 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-47
+
+Agenda attached.",https://meet.example.net/room-47,agenda.pdf,LEGITIMATE,meeting_reminder
+EML-00439,ceo.office@example-corp.invalid.test,example-corp.invalid.test,Quick task - confidential,Are you at your desk? I am in a meeting and need you to buy gift cards for a client. Do this immediately and reply with the codes. Keep it confidential.,,,PHISHING,fake_executive_request
+EML-00440,it-helpdesk@example-support.invalid.test,example-support.invalid.test,Your password expires today,"Dear User,
+
+Your password expires today. Update your password immediately to keep access: http://198.51.100.148/reset",http://198.51.100.148/reset,,PHISHING,fake_password_expiration
+EML-00441,docs-share@example-docs.example.net,example-docs.example.net,Document shared with you,"Hi Noah,
+
+A colleague shared the meeting notes with you. You can view them here: https://docs-share.example.net/view/51116",https://docs-share.example.net/view/51116,,PHISHING,subtle_document_share
+EML-00442,it-helpdesk@example-support.invalid.test,example-support.invalid.test,Your password expires today,"Dear User,
+
+Your password expires today. Update your password immediately to keep access: http://it-portal.update-login.example.net/password",http://it-portal.update-login.example.net/password,,PHISHING,fake_password_expiration
+EML-00443,registrar@example.org,example.org,Semester registration opens March 17,"Hello students,
+
+Registration for the next semester opens on March 7. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00444,ExampleBank Alerts <alerts@examplebank.example.com>,examplebank.example.com,Your September statement is ready,"Hello Noah,
+
+Your monthly statement is available in the ExampleBank app or at https://examplebank.example.com/statements. We will never ask for your password by email.",https://examplebank.example.com/statements,,LEGITIMATE,bank_notification
+EML-00445,rewards@prize-center.invalid.test,prize-center.invalid.test,Congratulations! You have won a free gift!!!,"Dear Winner,
+
+You have won! Claim your prize now: http://claim-prize.example.net/70249
+Confirm your personal details and card number to receive it.",http://claim-prize.example.net/70249,,PHISHING,fake_prize
+EML-00446,news@example.net,example.net,This month in tech: open-source tools,"Hello readers,
+
+This month we cover cloud basics and AI in education. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00447,orders@exampleshop.example.com,exampleshop.example.com,Your order #89963 has shipped,"Hi Isha,
+
+Thanks for your order. It shipped today and should arrive in 3 days. Track it at https://exampleshop.example.com/orders/89963.",https://exampleshop.example.com/orders/89963,,LEGITIMATE,shopping_confirmation
+EML-00448,delivery@parcel-track.example.net,parcel-track.example.net,Delivery failed - reschedule now,"Hello Customer,
+
+We could not deliver your parcel. Confirm your address and pay the small fee within 24 hours: http://short.example/aB3xY4",http://short.example/aB3xY4,,PHISHING,fake_delivery
+EML-00449,calendar@example.net,example.net,Reminder: project sync on Thursday at 3 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-45
+
+Agenda attached.",https://meet.example.net/room-45,agenda.pdf,LEGITIMATE,meeting_reminder
+EML-00450,delivery@parcel-track.example.net,parcel-track.example.net,Delivery failed - reschedule now,"Hello Customer,
+
+We could not deliver your parcel. Confirm your address and pay the small fee within 24 hours: http://short.example/k9Lm21",http://short.example/k9Lm21,,PHISHING,fake_delivery
+EML-00451,no-reply@example.com,example.com,Your password was changed,"Hi Noah,
+
+The password for your account was changed on June 25. If this was you, no action is needed. If it was not you, contact the helpdesk through https://example.com/help.",https://example.com/help,,LEGITIMATE,password_change_confirmation
+EML-00452,orders@exampleshop.example.com,exampleshop.example.com,Your order #15513 has shipped,"Hi Liam,
+
+Thanks for your order. It shipped today and should arrive in 2 days. Track it at https://exampleshop.example.com/orders/15513.",https://exampleshop.example.com/orders/15513,receipt_15513.pdf,LEGITIMATE,shopping_confirmation
+EML-00453,orders@exampleshop.example.com,exampleshop.example.com,Your order #72793 has shipped,"Hi Maya,
+
+Thanks for your order. It shipped today and should arrive in 3 days. Track it at https://exampleshop.example.com/orders/72793.",https://exampleshop.example.com/orders/72793,receipt_72793.pdf,LEGITIMATE,shopping_confirmation
+EML-00454,orders@exampleshop.example.com,exampleshop.example.com,Your order #27992 has shipped,"Hi Priya,
+
+Thanks for your order. It shipped today and should arrive in 6 days. Track it at https://exampleshop.example.com/orders/27992.",https://exampleshop.example.com/orders/27992,,LEGITIMATE,shopping_confirmation
+EML-00455,projects@example-team.example.net,example-team.example.net,Updated project files,"Hello,
+
+Please see the updated project files attached and let me know your thoughts.",,files.zip,PHISHING,subtle_attachment
+EML-00456,registrar@example.org,example.org,Semester registration opens February 14,"Hello students,
+
+Registration for the next semester opens on February 11. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00457,hr@example.com,example.com,Updated leave policy for 2025,"Hi all,
+
+The leave policy has been updated. You can read the details at https://hr.example.com/policies. No action is required.
+
+HR Team",https://hr.example.com/policies,,LEGITIMATE,hr_update
+EML-00458,projects@example-team.example.net,example-team.example.net,Updated project files,"Hello,
+
+Please see the updated project files attached and let me know your thoughts.",,files.zip,PHISHING,subtle_attachment
+EML-00459,docs-share@example-docs.example.net,example-docs.example.net,Document shared with you,"Hi Kabir,
+
+A colleague shared the meeting notes with you. You can view them here: https://docs-share.example.net/view/72580",https://docs-share.example.net/view/72580,,PHISHING,subtle_document_share
+EML-00460,delivery@parcel-track.example.net,parcel-track.example.net,Delivery failed - reschedule now,"Hello Customer,
+
+We could not deliver your parcel. Confirm your address and pay the small fee within 24 hours: http://short.example/k9Lm24",http://short.example/k9Lm24,,PHISHING,fake_delivery
+EML-00461,hr@example.com,example.com,Updated leave policy for 2025,"Hi all,
+
+The leave policy has been updated. You can read the details at https://hr.example.com/policies. No action is required.
+
+HR Team",https://hr.example.com/policies,,LEGITIMATE,hr_update
+EML-00462,registrar@example.org,example.org,Semester registration opens March 14,"Hello students,
+
+Registration for the next semester opens on March 27. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00463,no-reply@verify-examplebank.example.org,verify-examplebank.example.org,URGENT: Verify Your Account Immediately,"Dear Customer,
+
+Unusual activity was detected. Your account will be suspended within 24 hours unless you verify your account immediately: http://203.0.113.49/verify-account
+Enter your password to restore access.",http://203.0.113.49/verify-account,,PHISHING,fake_account_verification
+EML-00464,billing@invoice-center.example.net,invoice-center.example.net,Invoice #53914 overdue - payment failed,"Dear Sir/Madam,
+
+Your invoice is past due and payment failed. Open the attached invoice and settle the outstanding balance today.",,invoice_53914.html,PHISHING,fake_invoice
+EML-00465,ExampleBank Alerts <alerts@examplebank.example.com>,examplebank.example.com,Your March statement is ready,"Hello Ravi,
+
+Your monthly statement is available in the ExampleBank app or at https://examplebank.example.com/statements. We will never ask for your password by email.",https://examplebank.example.com/statements,,LEGITIMATE,bank_notification
+EML-00466,calendar@example.net,example.net,Reminder: project sync on Monday at 3 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-52
+
+Agenda attached.",https://meet.example.net/room-52,,LEGITIMATE,meeting_reminder
+EML-00467,orders@exampleshop.example.com,exampleshop.example.com,Your order #34405 has shipped,"Hi Aarav,
+
+Thanks for your order. It shipped today and should arrive in 4 days. Track it at https://exampleshop.example.com/orders/34405.",https://exampleshop.example.com/orders/34405,receipt_34405.pdf,LEGITIMATE,shopping_confirmation
+EML-00468,calendar@example.net,example.net,Reminder: project sync on Friday at 4 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-12
+
+Agenda attached.",https://meet.example.net/room-12,agenda.pdf,LEGITIMATE,meeting_reminder
+EML-00469,hr@example.com,example.com,Updated leave policy for 2025,"Hi all,
+
+The leave policy has been updated. You can read the details at https://hr.example.com/policies. No action is required.
+
+HR Team",https://hr.example.com/policies,,LEGITIMATE,hr_update
+EML-00470,rewards@prize-center.invalid.test,prize-center.invalid.test,Congratulations! You have won a free gift!!!,"Dear Winner,
+
+You have won! Claim your prize now: http://claim-prize.example.net/72580
+Confirm your personal details and card number to receive it.",http://claim-prize.example.net/72580,,PHISHING,fake_prize
+EML-00471,it-helpdesk@example-support.invalid.test,example-support.invalid.test,Your password expires today,"Dear User,
+
+Your password expires today. Update your password immediately to keep access: http://it-portal.update-login.example.net/password",http://it-portal.update-login.example.net/password,,PHISHING,fake_password_expiration
+EML-00472,delivery@parcel-track.example.net,parcel-track.example.net,Delivery failed - reschedule now,"Hello Customer,
+
+We could not deliver your parcel. Confirm your address and pay the small fee within 24 hours: http://short.example/k9Lm24",http://short.example/k9Lm24,,PHISHING,fake_delivery
+EML-00473,registrar@example.org,example.org,Semester registration opens May 21,"Hello students,
+
+Registration for the next semester opens on May 12. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00474,registrar@example.org,example.org,Semester registration opens February 15,"Hello students,
+
+Registration for the next semester opens on February 10. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00475,projects@example-team.example.net,example-team.example.net,Updated project files,"Hello,
+
+Please see the updated project files attached and let me know your thoughts.",,notes.html,PHISHING,subtle_attachment
+EML-00476,orders@exampleshop.example.com,exampleshop.example.com,Your order #58174 has shipped,"Hi Emma,
+
+Thanks for your order. It shipped today and should arrive in 3 days. Track it at https://exampleshop.example.com/orders/58174.",https://exampleshop.example.com/orders/58174,,LEGITIMATE,shopping_confirmation
+EML-00477,ExampleBank Alerts <alerts@examplebank.example.com>,examplebank.example.com,Your March statement is ready,"Hello Isha,
+
+Your monthly statement is available in the ExampleBank app or at https://examplebank.example.com/statements. We will never ask for your password by email.",https://examplebank.example.com/statements,,LEGITIMATE,bank_notification
+EML-00478,news@example.net,example.net,This month in tech: data privacy,"Hello readers,
+
+This month we cover AI in education and open-source tools. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00479,calendar@example.net,example.net,Reminder: project sync on Tuesday at 5 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-49
+
+Agenda attached.",https://meet.example.net/room-49,,LEGITIMATE,meeting_reminder
+EML-00480,news@example.net,example.net,This month in tech: password managers,"Hello readers,
+
+This month we cover open-source tools and password managers. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00481,projects@example-team.example.net,example-team.example.net,Updated project files,"Hello,
+
+Please see the updated project files attached and let me know your thoughts.",,files.zip,PHISHING,subtle_attachment
+EML-00482,sam@example.com,example.com,Sprint 11 status update,"Hi team,
+
+We finished 11 tasks this sprint and 4 carry over. Board: https://projects.example.com/board.
+
+Thanks!",https://projects.example.com/board,,LEGITIMATE,project_update
+EML-00483,ExampleBank Alerts <alerts@examplebank.example.com>,examplebank.example.com,Your February statement is ready,"Hello Ravi,
+
+Your monthly statement is available in the ExampleBank app or at https://examplebank.example.com/statements. We will never ask for your password by email.",https://examplebank.example.com/statements,,LEGITIMATE,bank_notification
+EML-00484,no-reply@verify-examplebank.example.org,verify-examplebank.example.org,Security alert: confirm your identity,"Dear Customer,
+
+Unusual activity was detected. Your account will be suspended within 24 hours unless you verify your account immediately: http://examplebank.verify-login.example.net/signin
+Enter your password to restore access.",http://examplebank.verify-login.example.net/signin,,PHISHING,fake_account_verification
+EML-00485,docs-share@example-docs.example.net,example-docs.example.net,Document shared with you,"Hi Liam,
+
+A colleague shared the meeting notes with you. You can view them here: https://docs-share.example.net/view/98181",https://docs-share.example.net/view/98181,,PHISHING,subtle_document_share
+EML-00486,no-reply@example.com,example.com,Your password was changed,"Hi Liam,
+
+The password for your account was changed on January 24. If this was you, no action is needed. If it was not you, contact the helpdesk through https://example.com/help.",https://example.com/help,,LEGITIMATE,password_change_confirmation
+EML-00487,billing@invoice-center.example.net,invoice-center.example.net,Invoice #15936 overdue - payment failed,"Dear Sir/Madam,
+
+Your invoice is past due and payment failed. Open the attached invoice and settle the outstanding balance today.",,payment_15936.js,PHISHING,fake_invoice
+EML-00488,billing@invoice-center.example.net,invoice-center.example.net,Invoice #80931 overdue - payment failed,"Dear Sir/Madam,
+
+Your invoice is past due and payment failed. Open the attached invoice and settle the outstanding balance today.",,Invoice_80931.pdf.exe,PHISHING,fake_invoice
+EML-00489,hr@example.com,example.com,Updated leave policy for 2026,"Hi all,
+
+The leave policy has been updated. You can read the details at https://hr.example.com/policies. No action is required.
+
+HR Team",https://hr.example.com/policies,,LEGITIMATE,hr_update
+EML-00490,ceo.office@example-corp.invalid.test,example-corp.invalid.test,Quick task - confidential,Are you at your desk? I am in a meeting and need you to buy gift cards for a client. Do this immediately and reply with the codes. Keep it confidential.,,,PHISHING,fake_executive_request
+EML-00491,rewards@prize-center.invalid.test,prize-center.invalid.test,Congratulations! You have won a free gift!!!,"Dear Winner,
+
+You have won! Claim your prize now: http://claim-prize.example.net/94085
+Confirm your personal details and card number to receive it.",http://claim-prize.example.net/94085,,PHISHING,fake_prize
+EML-00492,no-reply@example.com,example.com,Your password was changed,"Hi Zoya,
+
+The password for your account was changed on July 15. If this was you, no action is needed. If it was not you, contact the helpdesk through https://example.com/help.",https://example.com/help,,LEGITIMATE,password_change_confirmation
+EML-00493,no-reply@example.com,example.com,Your password was changed,"Hi Noah,
+
+The password for your account was changed on February 22. If this was you, no action is needed. If it was not you, contact the helpdesk through https://example.com/help.",https://example.com/help,,LEGITIMATE,password_change_confirmation
+EML-00494,kabir@example.com,example.com,Sprint 12 status update,"Hi team,
+
+We finished 4 tasks this sprint and 2 carry over. Board: https://projects.example.com/board.
+
+Thanks!",https://projects.example.com/board,burndown.xlsx,LEGITIMATE,project_update
+EML-00495,rewards@prize-center.invalid.test,prize-center.invalid.test,Congratulations! You have won a free gift!!!,"Dear Winner,
+
+You have won! Claim your prize now: http://claim-prize.example.net/39188
+Confirm your personal details and card number to receive it.",http://claim-prize.example.net/39188,,PHISHING,fake_prize
+EML-00496,registrar@example.org,example.org,Semester registration opens May 15,"Hello students,
+
+Registration for the next semester opens on May 22. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00497,no-reply@example.com,example.com,Your password was changed,"Hi Ravi,
+
+The password for your account was changed on July 27. If this was you, no action is needed. If it was not you, contact the helpdesk through https://example.com/help.",https://example.com/help,,LEGITIMATE,password_change_confirmation
+EML-00498,docs-share@example-docs.example.net,example-docs.example.net,Document shared with you,"Hi Sam,
+
+A colleague shared the meeting notes with you. You can view them here: https://docs-share.example.net/view/55371",https://docs-share.example.net/view/55371,,PHISHING,subtle_document_share
+EML-00499,billing@invoice-center.example.net,invoice-center.example.net,Invoice #14222 overdue - payment failed,"Dear Sir/Madam,
+
+Your invoice is past due and payment failed. Open the attached invoice and settle the outstanding balance today.",,payment_14222.js,PHISHING,fake_invoice
+EML-00500,registrar@example.org,example.org,Semester registration opens April 7,"Hello students,
+
+Registration for the next semester opens on April 3. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00501,no-reply@verify-examplebank.example.org,verify-examplebank.example.org,Security alert: confirm your identity,"Dear Customer,
+
+Unusual activity was detected. Your account will be suspended within 24 hours unless you verify your account immediately: http://192.0.2.174/verify-account
+Enter your password to restore access.",http://192.0.2.174/verify-account,,PHISHING,fake_account_verification
+EML-00502,docs-share@example-docs.example.net,example-docs.example.net,Document shared with you,"Hi Ravi,
+
+A colleague shared the meeting notes with you. You can view them here: https://docs-share.example.net/view/40715",https://docs-share.example.net/view/40715,,PHISHING,subtle_document_share
+EML-00503,support@examplebank-secure.example.net,examplebank-secure.example.net,Security alert: confirm your identity,"Dear Customer,
+
+Unusual activity was detected. Your account will be suspended within 24 hours unless you verify your account immediately: http://secure-login.invalid.test/account/verify?id=40692
+Enter your password to restore access.",http://secure-login.invalid.test/account/verify?id=40692,,PHISHING,fake_account_verification
+EML-00504,hr-payroll@example-hr.example.net,example-hr.example.net,Action required: confirm your payroll details,"Dear Employee,
+
+To avoid delays in your salary, please confirm your payroll details and send your bank account number by reply. Immediate action is required.",,,PHISHING,fake_hr_request
+EML-00505,rewards@prize-center.invalid.test,prize-center.invalid.test,Congratulations! You have won a free gift!!!,"Dear Winner,
+
+You have won! Claim your prize now: http://claim-prize.example.net/96535
+Confirm your personal details and card number to receive it.",http://claim-prize.example.net/96535,,PHISHING,fake_prize
+EML-00506,no-reply@example.com,example.com,Your password was changed,"Hi Liam,
+
+The password for your account was changed on May 2. If this was you, no action is needed. If it was not you, contact the helpdesk through https://example.com/help.",https://example.com/help,,LEGITIMATE,password_change_confirmation
+EML-00507,kabir@example.com,example.com,Sprint 14 status update,"Hi team,
+
+We finished 11 tasks this sprint and 4 carry over. Board: https://projects.example.com/board.
+
+Thanks!",https://projects.example.com/board,,LEGITIMATE,project_update
+EML-00508,no-reply@example.com,example.com,Your password was changed,"Hi Ravi,
+
+The password for your account was changed on June 23. If this was you, no action is needed. If it was not you, contact the helpdesk through https://example.com/help.",https://example.com/help,,LEGITIMATE,password_change_confirmation
+EML-00509,rewards@prize-center.invalid.test,prize-center.invalid.test,Congratulations! You have won a free gift!!!,"Dear Winner,
+
+You have won! Claim your prize now: http://claim-prize.example.net/49306
+Confirm your personal details and card number to receive it.",http://claim-prize.example.net/49306,,PHISHING,fake_prize
+EML-00510,projects@example-team.example.net,example-team.example.net,Updated project files,"Hello,
+
+Please see the updated project files attached and let me know your thoughts.",,notes.html,PHISHING,subtle_attachment
+EML-00511,it-helpdesk@example-support.invalid.test,example-support.invalid.test,Your password expires today,"Dear User,
+
+Your password expires today. Update your password immediately to keep access: http://203.0.113.221/reset",http://203.0.113.221/reset,,PHISHING,fake_password_expiration
+EML-00512,registrar@example.org,example.org,Semester registration opens September 14,"Hello students,
+
+Registration for the next semester opens on September 14. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00513,noah@example.com,example.com,Sprint 8 status update,"Hi team,
+
+We finished 7 tasks this sprint and 2 carry over. Board: https://projects.example.com/board.
+
+Thanks!",https://projects.example.com/board,sprint_report.pdf,LEGITIMATE,project_update
+EML-00514,ExampleBank Alerts <alerts@examplebank.example.com>,examplebank.example.com,Your June statement is ready,"Hello Priya,
+
+Your monthly statement is available in the ExampleBank app or at https://examplebank.example.com/statements. We will never ask for your password by email.",https://examplebank.example.com/statements,,LEGITIMATE,bank_notification
+EML-00515,calendar@example.net,example.net,Reminder: project sync on Wednesday at 4 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-4
+
+Agenda attached.",https://meet.example.net/room-4,agenda.docx,LEGITIMATE,meeting_reminder
+EML-00516,registrar@example.org,example.org,Semester registration opens February 7,"Hello students,
+
+Registration for the next semester opens on February 26. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00517,calendar@example.net,example.net,Reminder: project sync on Tuesday at 3 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-31
+
+Agenda attached.",https://meet.example.net/room-31,agenda.pdf,LEGITIMATE,meeting_reminder
+EML-00518,registrar@example.org,example.org,Semester registration opens April 7,"Hello students,
+
+Registration for the next semester opens on April 24. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00519,docs-share@example-docs.example.net,example-docs.example.net,Document shared with you,"Hi Sara,
+
+A colleague shared the meeting notes with you. You can view them here: https://docs-share.example.net/view/41797",https://docs-share.example.net/view/41797,,PHISHING,subtle_document_share
+EML-00520,calendar@example.net,example.net,Reminder: project sync on Tuesday at 5 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-26
+
+Agenda attached.",https://meet.example.net/room-26,agenda.pdf,LEGITIMATE,meeting_reminder
+EML-00521,no-reply@example.com,example.com,Your password was changed,"Hi Isha,
+
+The password for your account was changed on September 21. If this was you, no action is needed. If it was not you, contact the helpdesk through https://example.com/help.",https://example.com/help,,LEGITIMATE,password_change_confirmation
+EML-00522,delivery@parcel-track.example.net,parcel-track.example.net,Delivery failed - reschedule now,"Hello Customer,
+
+We could not deliver your parcel. Confirm your address and pay the small fee within 24 hours: http://short.example/k9Lm28",http://short.example/k9Lm28,,PHISHING,fake_delivery
+EML-00523,ExampleBank Alerts <alerts@examplebank.example.com>,examplebank.example.com,Your February statement is ready,"Hello Sara,
+
+Your monthly statement is available in the ExampleBank app or at https://examplebank.example.com/statements. We will never ask for your password by email.",https://examplebank.example.com/statements,,LEGITIMATE,bank_notification
+EML-00524,news@example.net,example.net,This month in tech: safe browsing,"Hello readers,
+
+This month we cover cloud basics and cloud basics. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00525,it-helpdesk@example-support.invalid.test,example-support.invalid.test,Your password expires today,"Dear User,
+
+Your password expires today. Update your password immediately to keep access: http://192.0.2.39/reset",http://192.0.2.39/reset,,PHISHING,fake_password_expiration
+EML-00526,ceo.office@example-corp.invalid.test,example-corp.invalid.test,Quick task - confidential,Are you at your desk? I am in a meeting and need you to buy gift cards for a client. Do this immediately and reply with the codes. Keep it confidential.,,,PHISHING,fake_executive_request
+EML-00527,it-helpdesk@example-support.invalid.test,example-support.invalid.test,Your password expires today,"Dear User,
+
+Your password expires today. Update your password immediately to keep access: http://it-portal.update-login.example.net/password",http://it-portal.update-login.example.net/password,,PHISHING,fake_password_expiration
+EML-00528,calendar@example.net,example.net,Reminder: project sync on Friday at 3 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-32
+
+Agenda attached.",https://meet.example.net/room-32,agenda.pdf,LEGITIMATE,meeting_reminder
+EML-00529,ExampleBank Alerts <alerts@examplebank.example.com>,examplebank.example.com,Your August statement is ready,"Hello Isha,
+
+Your monthly statement is available in the ExampleBank app or at https://examplebank.example.com/statements. We will never ask for your password by email.",https://examplebank.example.com/statements,,LEGITIMATE,bank_notification
+EML-00530,hr-payroll@example-hr.example.net,example-hr.example.net,Action required: confirm your payroll details,"Dear Employee,
+
+To avoid delays in your salary, please confirm your payroll details and send your bank account number by reply. Immediate action is required.",,,PHISHING,fake_hr_request
+EML-00531,projects@example-team.example.net,example-team.example.net,Updated project files,"Hello,
+
+Please see the updated project files attached and let me know your thoughts.",,notes.html,PHISHING,subtle_attachment
+EML-00532,projects@example-team.example.net,example-team.example.net,Updated project files,"Hello,
+
+Please see the updated project files attached and let me know your thoughts.",,files.zip,PHISHING,subtle_attachment
+EML-00533,hr@example.com,example.com,Updated leave policy for 2027,"Hi all,
+
+The leave policy has been updated. You can read the details at https://hr.example.com/policies. No action is required.
+
+HR Team",https://hr.example.com/policies,,LEGITIMATE,hr_update
+EML-00534,no-reply@verify-examplebank.example.org,verify-examplebank.example.org,URGENT: Verify Your Account Immediately,"Dear Customer,
+
+Unusual activity was detected. Your account will be suspended within 24 hours unless you verify your account immediately: http://198.51.100.217/verify-account
+Enter your password to restore access.",http://198.51.100.217/verify-account,,PHISHING,fake_account_verification
+EML-00535,registrar@example.org,example.org,Semester registration opens April 17,"Hello students,
+
+Registration for the next semester opens on April 15. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00536,docs-share@example-docs.example.net,example-docs.example.net,Document shared with you,"Hi Isha,
+
+A colleague shared the meeting notes with you. You can view them here: https://docs-share.example.net/view/96413",https://docs-share.example.net/view/96413,,PHISHING,subtle_document_share
+EML-00537,projects@example-team.example.net,example-team.example.net,Updated project files,"Hello,
+
+Please see the updated project files attached and let me know your thoughts.",,notes.html,PHISHING,subtle_attachment
+EML-00538,projects@example-team.example.net,example-team.example.net,Updated project files,"Hello,
+
+Please see the updated project files attached and let me know your thoughts.",,notes.html,PHISHING,subtle_attachment
+EML-00539,orders@exampleshop.example.com,exampleshop.example.com,Your order #12246 has shipped,"Hi Ravi,
+
+Thanks for your order. It shipped today and should arrive in 5 days. Track it at https://exampleshop.example.com/orders/12246.",https://exampleshop.example.com/orders/12246,,LEGITIMATE,shopping_confirmation
+EML-00540,billing@invoice-center.example.net,invoice-center.example.net,Invoice #78732 overdue - payment failed,"Dear Sir/Madam,
+
+Your invoice is past due and payment failed. Open the attached invoice and settle the outstanding balance today.",,Invoice_78732.zip,PHISHING,fake_invoice
+EML-00541,projects@example-team.example.net,example-team.example.net,Updated project files,"Hello,
+
+Please see the updated project files attached and let me know your thoughts.",,notes.html,PHISHING,subtle_attachment
+EML-00542,orders@exampleshop.example.com,exampleshop.example.com,Your order #62022 has shipped,"Hi Priya,
+
+Thanks for your order. It shipped today and should arrive in 4 days. Track it at https://exampleshop.example.com/orders/62022.",https://exampleshop.example.com/orders/62022,receipt_62022.pdf,LEGITIMATE,shopping_confirmation
+EML-00543,calendar@example.net,example.net,Reminder: project sync on Tuesday at 3 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-45
+
+Agenda attached.",https://meet.example.net/room-45,agenda.docx,LEGITIMATE,meeting_reminder
+EML-00544,hr@example.com,example.com,Updated leave policy for 2027,"Hi all,
+
+The leave policy has been updated. You can read the details at https://hr.example.com/policies. No action is required.
+
+HR Team",https://hr.example.com/policies,,LEGITIMATE,hr_update
+EML-00545,hr@example.com,example.com,Updated leave policy for 2026,"Hi all,
+
+The leave policy has been updated. You can read the details at https://hr.example.com/policies. No action is required.
+
+HR Team",https://hr.example.com/policies,,LEGITIMATE,hr_update
+EML-00546,registrar@example.org,example.org,Semester registration opens January 23,"Hello students,
+
+Registration for the next semester opens on January 6. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00547,ceo.office@example-corp.invalid.test,example-corp.invalid.test,Quick task - confidential,Are you at your desk? I am in a meeting and need you to buy gift cards for a client. Do this immediately and reply with the codes. Keep it confidential.,,,PHISHING,fake_executive_request
+EML-00548,news@example.net,example.net,This month in tech: open-source tools,"Hello readers,
+
+This month we cover password managers and open-source tools. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00549,calendar@example.net,example.net,Reminder: project sync on Friday at 4 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-14
+
+Agenda attached.",https://meet.example.net/room-14,agenda.pdf,LEGITIMATE,meeting_reminder
+EML-00550,billing@invoice-center.example.net,invoice-center.example.net,Invoice #99709 overdue - payment failed,"Dear Sir/Madam,
+
+Your invoice is past due and payment failed. Open the attached invoice and settle the outstanding balance today.",,invoice_99709.html,PHISHING,fake_invoice
+EML-00551,registrar@example.org,example.org,Semester registration opens March 28,"Hello students,
+
+Registration for the next semester opens on March 11. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00552,it-helpdesk@example-support.invalid.test,example-support.invalid.test,Your password expires today,"Dear User,
+
+Your password expires today. Update your password immediately to keep access: http://it-portal.update-login.example.net/password",http://it-portal.update-login.example.net/password,,PHISHING,fake_password_expiration
+EML-00553,orders@exampleshop.example.com,exampleshop.example.com,Your order #31292 has shipped,"Hi Emma,
+
+Thanks for your order. It shipped today and should arrive in 3 days. Track it at https://exampleshop.example.com/orders/31292.",https://exampleshop.example.com/orders/31292,receipt_31292.pdf,LEGITIMATE,shopping_confirmation
+EML-00554,news@example.net,example.net,This month in tech: data privacy,"Hello readers,
+
+This month we cover AI in education and safe browsing. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00555,hr@example.com,example.com,Updated leave policy for 2026,"Hi all,
+
+The leave policy has been updated. You can read the details at https://hr.example.com/policies. No action is required.
+
+HR Team",https://hr.example.com/policies,,LEGITIMATE,hr_update
+EML-00556,ceo.office@example-corp.invalid.test,example-corp.invalid.test,Quick task - confidential,Are you at your desk? I am in a meeting and need you to buy gift cards for a client. Do this immediately and reply with the codes. Keep it confidential.,,,PHISHING,fake_executive_request
+EML-00557,billing@invoice-center.example.net,invoice-center.example.net,Invoice #54642 overdue - payment failed,"Dear Sir/Madam,
+
+Your invoice is past due and payment failed. Open the attached invoice and settle the outstanding balance today.",,payment_54642.js,PHISHING,fake_invoice
+EML-00558,news@example.net,example.net,This month in tech: password managers,"Hello readers,
+
+This month we cover AI in education and cloud basics. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00559,ExampleBank Alerts <alerts@examplebank.example.com>,examplebank.example.com,Your August statement is ready,"Hello Maya,
+
+Your monthly statement is available in the ExampleBank app or at https://examplebank.example.com/statements. We will never ask for your password by email.",https://examplebank.example.com/statements,,LEGITIMATE,bank_notification
+EML-00560,ceo.office@example-corp.invalid.test,example-corp.invalid.test,Quick task - confidential,Are you at your desk? I am in a meeting and need you to buy gift cards for a client. Do this immediately and reply with the codes. Keep it confidential.,,,PHISHING,fake_executive_request
+EML-00561,ceo.office@example-corp.invalid.test,example-corp.invalid.test,Quick task - confidential,Are you at your desk? I am in a meeting and need you to buy gift cards for a client. Do this immediately and reply with the codes. Keep it confidential.,,,PHISHING,fake_executive_request
+EML-00562,delivery@parcel-track.example.net,parcel-track.example.net,Delivery failed - reschedule now,"Hello Customer,
+
+We could not deliver your parcel. Confirm your address and pay the small fee within 24 hours: http://short.example/aB3xY1",http://short.example/aB3xY1,,PHISHING,fake_delivery
+EML-00563,rewards@prize-center.invalid.test,prize-center.invalid.test,Congratulations! You have won a free gift!!!,"Dear Winner,
+
+You have won! Claim your prize now: http://claim-prize.example.net/59807
+Confirm your personal details and card number to receive it.",http://claim-prize.example.net/59807,,PHISHING,fake_prize
+EML-00564,sara@example.com,example.com,Sprint 13 status update,"Hi team,
+
+We finished 8 tasks this sprint and 3 carry over. Board: https://projects.example.com/board.
+
+Thanks!",https://projects.example.com/board,,LEGITIMATE,project_update
+EML-00565,delivery@parcel-track.example.net,parcel-track.example.net,Delivery failed - reschedule now,"Hello Customer,
+
+We could not deliver your parcel. Confirm your address and pay the small fee within 24 hours: http://short.example/k9Lm25",http://short.example/k9Lm25,,PHISHING,fake_delivery
+EML-00566,hr@example.com,example.com,Urgent: Submit your documents today,"Hi Sam,
+
+Please submit your signed onboarding documents today so payroll can be processed on time. Upload them at https://hr.example.com/documents.
+
+HR Team",https://hr.example.com/documents,,LEGITIMATE,hr_update_urgent
+EML-00567,projects@example-team.example.net,example-team.example.net,Updated project files,"Hello,
+
+Please see the updated project files attached and let me know your thoughts.",,notes.html,PHISHING,subtle_attachment
+EML-00568,billing@invoice-center.example.net,invoice-center.example.net,Invoice #56388 overdue - payment failed,"Dear Sir/Madam,
+
+Your invoice is past due and payment failed. Open the attached invoice and settle the outstanding balance today.",,Invoice_56388.pdf.exe,PHISHING,fake_invoice
+EML-00569,news@example.net,example.net,This month in tech: data privacy,"Hello readers,
+
+This month we cover password managers and cloud basics. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00570,billing@invoice-center.example.net,invoice-center.example.net,Invoice #83339 overdue - payment failed,"Dear Sir/Madam,
+
+Your invoice is past due and payment failed. Open the attached invoice and settle the outstanding balance today.",,Invoice_83339.zip,PHISHING,fake_invoice
+EML-00571,kabir@example.com,example.com,Sprint 13 status update,"Hi team,
+
+We finished 5 tasks this sprint and 2 carry over. Board: https://projects.example.com/board.
+
+Thanks!",https://projects.example.com/board,sprint_report.pdf,LEGITIMATE,project_update
+EML-00572,docs-share@example-docs.example.net,example-docs.example.net,Document shared with you,"Hi Priya,
+
+A colleague shared the meeting notes with you. You can view them here: https://docs-share.example.net/view/29127",https://docs-share.example.net/view/29127,,PHISHING,subtle_document_share
+EML-00573,delivery@parcel-track.example.net,parcel-track.example.net,Delivery failed - reschedule now,"Hello Customer,
+
+We could not deliver your parcel. Confirm your address and pay the small fee within 24 hours: http://short.example/k9Lm24",http://short.example/k9Lm24,,PHISHING,fake_delivery
+EML-00574,hr@example.com,example.com,Updated leave policy for 2025,"Hi all,
+
+The leave policy has been updated. You can read the details at https://hr.example.com/policies. No action is required.
+
+HR Team",https://hr.example.com/policies,,LEGITIMATE,hr_update
+EML-00575,ExampleBank Alerts <alerts@examplebank.example.com>,examplebank.example.com,Your October statement is ready,"Hello Emma,
+
+Your monthly statement is available in the ExampleBank app or at https://examplebank.example.com/statements. We will never ask for your password by email.",https://examplebank.example.com/statements,,LEGITIMATE,bank_notification
+EML-00576,billing@invoice-center.example.net,invoice-center.example.net,Invoice #27758 overdue - payment failed,"Dear Sir/Madam,
+
+Your invoice is past due and payment failed. Open the attached invoice and settle the outstanding balance today.",,invoice_27758.html,PHISHING,fake_invoice
+EML-00577,ceo.office@example-corp.invalid.test,example-corp.invalid.test,Quick task - confidential,Are you at your desk? I am in a meeting and need you to buy gift cards for a client. Do this immediately and reply with the codes. Keep it confidential.,,,PHISHING,fake_executive_request
+EML-00578,ceo.office@example-corp.invalid.test,example-corp.invalid.test,Quick task - confidential,Are you at your desk? I am in a meeting and need you to buy gift cards for a client. Do this immediately and reply with the codes. Keep it confidential.,,,PHISHING,fake_executive_request
+EML-00579,news@example.net,example.net,This month in tech: data privacy,"Hello readers,
+
+This month we cover cloud basics and data privacy. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00580,liam@example.com,example.com,Sprint 11 status update,"Hi team,
+
+We finished 12 tasks this sprint and 2 carry over. Board: https://projects.example.com/board.
+
+Thanks!",https://projects.example.com/board,sprint_report.pdf,LEGITIMATE,project_update
+EML-00581,ceo.office@example-corp.invalid.test,example-corp.invalid.test,Quick task - confidential,Are you at your desk? I am in a meeting and need you to buy gift cards for a client. Do this immediately and reply with the codes. Keep it confidential.,,,PHISHING,fake_executive_request
+EML-00582,orders@exampleshop.example.com,exampleshop.example.com,Your order #92955 has shipped,"Hi Isha,
+
+Thanks for your order. It shipped today and should arrive in 6 days. Track it at https://exampleshop.example.com/orders/92955.",https://exampleshop.example.com/orders/92955,,LEGITIMATE,shopping_confirmation
+EML-00583,delivery@parcel-track.example.net,parcel-track.example.net,Delivery failed - reschedule now,"Hello Customer,
+
+We could not deliver your parcel. Confirm your address and pay the small fee within 24 hours: http://short.example/k9Lm25",http://short.example/k9Lm25,,PHISHING,fake_delivery
+EML-00584,it-helpdesk@example-support.invalid.test,example-support.invalid.test,Your password expires today,"Dear User,
+
+Your password expires today. Update your password immediately to keep access: http://192.0.2.141/reset",http://192.0.2.141/reset,,PHISHING,fake_password_expiration
+EML-00585,registrar@example.org,example.org,Semester registration opens August 23,"Hello students,
+
+Registration for the next semester opens on August 7. Course details are at https://example.org/registrar/courses. Contact the registrar's office if you have questions.
+
+Regards,
+Registrar's Office",https://example.org/registrar/courses,,LEGITIMATE,university_notice
+EML-00586,delivery@parcel-track.example.net,parcel-track.example.net,Delivery failed - reschedule now,"Hello Customer,
+
+We could not deliver your parcel. Confirm your address and pay the small fee within 24 hours: http://short.example/Zq7Rt1",http://short.example/Zq7Rt1,,PHISHING,fake_delivery
+EML-00587,no-reply@example.com,example.com,Your password was changed,"Hi Kabir,
+
+The password for your account was changed on August 5. If this was you, no action is needed. If it was not you, contact the helpdesk through https://example.com/help.",https://example.com/help,,LEGITIMATE,password_change_confirmation
+EML-00588,calendar@example.net,example.net,Reminder: project sync on Tuesday at 4 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-17
+
+Agenda attached.",https://meet.example.net/room-17,agenda.pdf,LEGITIMATE,meeting_reminder
+EML-00589,docs-share@example-docs.example.net,example-docs.example.net,Document shared with you,"Hi Noah,
+
+A colleague shared the meeting notes with you. You can view them here: https://docs-share.example.net/view/86315",https://docs-share.example.net/view/86315,,PHISHING,subtle_document_share
+EML-00590,no-reply@example.com,example.com,Your password was changed,"Hi Ravi,
+
+The password for your account was changed on January 26. If this was you, no action is needed. If it was not you, contact the helpdesk through https://example.com/help.",https://example.com/help,,LEGITIMATE,password_change_confirmation
+EML-00591,hr@example.com,example.com,Urgent: Submit your documents today,"Hi Maya,
+
+Please submit your signed onboarding documents today so payroll can be processed on time. Upload them at https://hr.example.com/documents.
+
+HR Team",https://hr.example.com/documents,,LEGITIMATE,hr_update_urgent
+EML-00592,news@example.net,example.net,This month in tech: safe browsing,"Hello readers,
+
+This month we cover AI in education and open-source tools. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00593,ceo.office@example-corp.invalid.test,example-corp.invalid.test,Quick task - confidential,Are you at your desk? I am in a meeting and need you to buy gift cards for a client. Do this immediately and reply with the codes. Keep it confidential.,,,PHISHING,fake_executive_request
+EML-00594,news@example.net,example.net,This month in tech: data privacy,"Hello readers,
+
+This month we cover password managers and password managers. Read the full issue at https://news.example.net/latest. Unsubscribe any time from your profile.",https://news.example.net/latest,,LEGITIMATE,newsletter
+EML-00595,it-helpdesk@example-support.invalid.test,example-support.invalid.test,Your password expires today,"Dear User,
+
+Your password expires today. Update your password immediately to keep access: http://192.0.2.193/reset",http://192.0.2.193/reset,,PHISHING,fake_password_expiration
+EML-00596,ceo.office@example-corp.invalid.test,example-corp.invalid.test,Quick task - confidential,Are you at your desk? I am in a meeting and need you to buy gift cards for a client. Do this immediately and reply with the codes. Keep it confidential.,,,PHISHING,fake_executive_request
+EML-00597,zoya@example.com,example.com,Sprint 1 status update,"Hi team,
+
+We finished 10 tasks this sprint and 1 carry over. Board: https://projects.example.com/board.
+
+Thanks!",https://projects.example.com/board,sprint_report.pdf,LEGITIMATE,project_update
+EML-00598,billing@invoice-center.example.net,invoice-center.example.net,Invoice #25213 overdue - payment failed,"Dear Sir/Madam,
+
+Your invoice is past due and payment failed. Open the attached invoice and settle the outstanding balance today.",,Invoice_25213.zip,PHISHING,fake_invoice
+EML-00599,hr-payroll@example-hr.example.net,example-hr.example.net,Action required: confirm your payroll details,"Dear Employee,
+
+To avoid delays in your salary, please confirm your payroll details and send your bank account number by reply. Immediate action is required.",,,PHISHING,fake_hr_request
+EML-00600,calendar@example.net,example.net,Reminder: project sync on Thursday at 3 PM,"Hello,
+
+This is a reminder about the project sync. Join here: https://meet.example.net/room-34
+
+Agenda attached.",https://meet.example.net/room-34,agenda.pdf,LEGITIMATE,meeting_reminder

@@ -1,0 +1,29 @@
+SYNTHETIC DATASET STATISTICS
+Generated rows        : 600  {'LEGITIMATE': 343, 'PHISHING': 257}
+After de-duplication  : 455  {'LEGITIMATE': 297, 'PHISHING': 158}  (removed 145 duplicate rows)
+Rows with URLs        : 413
+Rows with attachments : 122
+Distinct sender domains: 17
+
+Rows per category (after de-duplication):
+label       category                    
+LEGITIMATE  bank_notification               34
+            hr_update                        3
+            hr_update_urgent                 7
+            meeting_reminder                46
+            newsletter                      38
+            password_change_confirmation    39
+            project_update                  42
+            shopping_confirmation           40
+            university_notice               48
+PHISHING    fake_account_verification       22
+            fake_delivery                   19
+            fake_executive_request           1
+            fake_hr_request                  1
+            fake_invoice                    39
+            fake_password_expiration        14
+            fake_prize                      28
+            subtle_attachment                1
+            subtle_document_share           33
+
+All domains are reserved/fictional: example.com/.org/.net, *.invalid.test, *.example; IPs from documentation ranges.

@@ -1,0 +1,12 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+*.db
+models/*.joblib
+.DS_Store
+logs/
+analysis_history.db
+career/

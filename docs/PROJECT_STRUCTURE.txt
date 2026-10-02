@@ -1,0 +1,104 @@
+Phishing-Email-Detection-Awareness-Dashboard/
+├── backend/
+│   ├── models/
+│   │   ├── __init__.py
+│   │   └── schemas.py
+│   ├── routes/
+│   │   ├── __init__.py
+│   │   ├── analysis.py
+│   │   ├── auth.py
+│   │   └── dashboard.py
+│   ├── services/
+│   │   ├── __init__.py
+│   │   ├── analysis_service.py
+│   │   ├── attachment_analyzer.py
+│   │   ├── content_analyzer.py
+│   │   ├── feature_extractor.py
+│   │   ├── risk_engine.py
+│   │   ├── sender_analyzer.py
+│   │   └── url_analyzer.py
+│   ├── utils/
+│   │   ├── __init__.py
+│   │   ├── constants.py
+│   │   ├── domain_utils.py
+│   │   ├── eml_parser.py
+│   │   └── preprocessing.py
+│   ├── __init__.py
+│   ├── app.py
+│   ├── config.py
+│   ├── database.py
+│   ├── dependencies.py
+│   ├── security.py
+│   └── seed_demo.py
+├── career/
+│   ├── CAREER_KIT.md
+│   ├── PROOF_PLAN.md
+│   └── git_commit_plan.sh
+├── data/
+│   ├── dataset_stats.py
+│   ├── evaluate_rules.py
+│   ├── generate_dataset.py
+│   └── phishing_email_dataset.csv
+├── docs/
+│   ├── ARCHITECTURE.md
+│   ├── CONCEPTS.md
+│   ├── GITHUB_GUIDE.md
+│   ├── PROJECT_STRUCTURE.txt
+│   ├── api.md
+│   ├── architecture.html
+│   ├── confusion_matrix.png
+│   ├── dataset_stats.txt
+│   ├── ml_results.json
+│   ├── ml_results.md
+│   ├── model_comparison.png
+│   └── test_report.md
+├── frontend/
+│   ├── static/
+│   │   ├── app.js
+│   │   └── styles.css
+│   └── index.html
+├── ml/
+│   ├── __init__.py
+│   ├── evaluation.py
+│   ├── hybrid.py
+│   ├── ml_features.py
+│   ├── predict.py
+│   └── train_model.py
+├── models/
+│   └── .gitkeep
+├── reports/
+│   ├── .gitkeep
+│   └── PROJECT_REPORT.md
+├── screenshots/
+│   ├── 02_architecture_diagram.png
+│   ├── 05_email_analyzer_page.png
+│   ├── 06_legitimate_email_analysis.png
+│   ├── 07_synthetic_phishing_analysis.png
+│   ├── 08_sender_risk_findings.png
+│   ├── 09_url_risk_findings.png
+│   ├── 10_attachment_analysis.png
+│   ├── 11_phishing_risk_score.png
+│   ├── 12_explainable_indicators.png
+│   ├── 13_recommended_actions.png
+│   ├── 14_dashboard_overview.png
+│   ├── 15_classification_chart.png
+│   ├── 16_risk_score_distribution.png
+│   ├── 17_top_detected_indicators.png
+│   ├── 19_confusion_matrix.png
+│   ├── 20_analysis_history.png
+│   ├── 20b_analysis_detail.png
+│   └── 21_awareness_module.png
+├── scripts/
+│   └── capture_screenshots.py
+├── tests/
+│   ├── conftest.py
+│   ├── test_api.py
+│   ├── test_core.py
+│   ├── test_frontend.py
+│   └── test_ml.py
+├── .env.example
+├── .gitignore
+├── README.md
+├── pytest.ini
+├── requirements.txt
+└── run_demo.py
